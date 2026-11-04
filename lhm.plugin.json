@@ -1,0 +1,95 @@
+{
+  "author": "Blake Balfour",
+  "authorUrl": "https://github.com/blake3292",
+  "category": "tools",
+  "cloudEndpoint": "https://homegeneratorhq.com/mcp",
+  "description": "Verified home backup power catalog: standby and portable generators, power stations, sizing.",
+  "homepage": "https://github.com/blake3292/homegeneratorhq-mcp",
+  "identifier": "blake3292-home-generator-hq",
+  "name": "Home Generator HQ",
+  "tags": [
+    "generators",
+    "home-backup-power",
+    "power-stations",
+    "product-catalog"
+  ],
+  "version": "1.0.0",
+  "tools": [
+    {
+      "name": "search_generators",
+      "description": "Search the Home Generator HQ verified catalog of generators. Returns a compact ranked shortlist with prices and links.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "What the user is looking for"
+          },
+          "category": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    {
+      "name": "get_generator",
+      "description": "Get the full verified record for one generator by name.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    },
+    {
+      "name": "compare_generators",
+      "description": "Compare two or more generators side by side on key specs and price.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "names": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "names"
+        ]
+      }
+    },
+    {
+      "name": "list_categories",
+      "description": "List the catalog categories with item counts.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    {
+      "name": "catalog_info",
+      "description": "About this catalog: coverage, item count, last update, and usage terms.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    {
+      "name": "sizing_help",
+      "description": "Generator sizing rules of thumb and typical installed cost ranges for standby generators.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  ]
+}

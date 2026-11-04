@@ -1,0 +1,8 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.homegeneratorhq/generators",
+  "description": "Verified home backup power catalog: standby and portable generators, power stations, sizing.",
+  "version": "1.0.0",
+  "websiteUrl": "https://homegeneratorhq.com",
+  "remotes": [{ "type": "streamable-http", "url": "https://homegeneratorhq.com/mcp" }]
+}
