@@ -1,635 +1,545 @@
 {
-  "about": "Machine-readable comparison data for home backup power equipment. Compiled from manufacturer specifications and retailer listings. Prices are approximate US street prices and change often; verify before purchase.",
-  "expansion_batteries": [
-    {
-      "approx_price_usd": 1199,
-      "brand": "EcoFlow",
-      "capacity_wh": 3600,
-      "compatible": "EcoFlow DELTA Pro",
-      "name": "EcoFlow DELTA Pro Smart Extra Battery",
-      "notes": "LFP add-on battery for the original DELTA Pro only; one pack doubles it to 7.2kWh, two reach 10.8kWh; 3,500 cycles to 80%. EcoFlow US collection page states this battery will not be restocked (Nov 2026 check).",
-      "slug": "ecoflow-delta-pro-extra-battery",
-      "type": "expansion battery",
-      "weight_lb": 84,
-      "buy_url": "https://www.amazon.com/s?k=EcoFlow+DELTA+Pro+Smart+Extra+Battery&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 1100,
-      "brand": "BLUETTI",
-      "capacity_wh": 2764.8,
-      "compatible": "BLUETTI Apex 300, AC300, AC500, AC200L, AC200MAX",
-      "name": "BLUETTI B300K Expansion Battery",
-      "notes": "LiFePO4 pack with 4,000+ cycles to 80%; also has a small USB output for standalone use.",
-      "slug": "bluetti-b300k",
-      "type": "expansion battery",
-      "weight_lb": 65,
-      "buy_url": "https://www.amazon.com/s?k=BLUETTI+B300K+expansion+battery&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 799,
-      "brand": "Jackery",
-      "capacity_wh": 2042.8,
-      "compatible": "Jackery Explorer 2000 Plus",
-      "name": "Jackery Battery Pack 2000 Plus",
-      "notes": "LiFePO4 pack for the Explorer 2000 Plus only; up to five packs per station (12kWh), or 24kWh across paired stations. Listed at $799 on Jackery US (Nov 2026 check); shown sold out there at check time.",
-      "slug": "jackery-battery-pack-2000-plus",
-      "type": "expansion battery",
-      "weight_lb": 41.9,
-      "buy_url": "https://www.amazon.com/s?k=Jackery+Battery+Pack+2000+Plus+expansion+battery&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    }
-  ],
-  "installed_cost_ranges_usd": {
-    "10-14kW": "9500-12000 installed total",
-    "18-22kW": "11000-14000 installed total",
-    "24-26kW": "12000-16000 installed total",
-    "note": "Includes equipment, transfer switch, typical gas and electrical work, permits, and pad. Complex installs run higher."
+ "about": "Machine-readable comparison data for home backup power equipment. Compiled from manufacturer specifications and retailer listings. Prices are approximate US street prices and change often; verify before purchase.",
+ "expansion_batteries": [
+  {
+   "approx_price_usd": 1199,
+   "brand": "EcoFlow",
+   "capacity_wh": 3600,
+   "compatible": "EcoFlow DELTA Pro",
+   "name": "EcoFlow DELTA Pro Smart Extra Battery",
+   "notes": "LFP add-on battery for the original DELTA Pro only; one pack doubles it to 7.2kWh, two reach 10.8kWh; 3,500 cycles to 80%. EcoFlow US collection page states this battery will not be restocked (Nov 2026 check).",
+   "slug": "ecoflow-delta-pro-extra-battery",
+   "type": "expansion battery",
+   "weight_lb": 84
   },
-  "portable_generators": [
-    {
-      "approx_price_usd": 1150,
-      "brand": "Honda",
-      "electric_start": false,
-      "fuel": "gasoline",
-      "inverter": true,
-      "name": "Honda EU2200i",
-      "noise_dba": "48-57",
-      "notes": "The benchmark small inverter: GXR120 commercial engine, recoil start only, parallel-capable; 3.2-8.1 hrs on a 0.95-gal tank.",
-      "running_watts": 1800,
-      "slug": "honda-eu2200i",
-      "starting_watts": 2200,
-      "type": "portable generator",
-      "weight_lb": 47.4,
-      "buy_url": "https://www.amazon.com/s?k=Honda+EU2200i+inverter+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 450,
-      "brand": "WEN",
-      "electric_start": false,
-      "fuel": "gasoline",
-      "inverter": true,
-      "name": "WEN 56235i",
-      "noise_dba": "51 at quarter load",
-      "notes": "Budget Honda alternative; fuel shutoff drains the carb for storage; 2-year warranty; about 10.5 hrs at quarter load.",
-      "running_watts": 1900,
-      "slug": "wen-56235i",
-      "starting_watts": 2350,
-      "type": "portable generator",
-      "weight_lb": 39,
-      "buy_url": "https://www.amazon.com/s?k=WEN+56235i+inverter+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 899,
-      "brand": "Westinghouse",
-      "electric_start": true,
-      "fuel": "gasoline",
-      "inverter": true,
-      "name": "Westinghouse iGen4500",
-      "noise_dba": "52",
-      "notes": "Quietest in its size class; remote/electric/recoil start, RV TT-30R outlet, up to 18 hrs on 3.4 gal at quarter load.",
-      "running_watts": 3700,
-      "slug": "westinghouse-igen4500",
-      "starting_watts": 4500,
-      "type": "portable generator",
-      "weight_lb": 98,
-      "buy_url": "https://www.amazon.com/s?k=Westinghouse+iGen4500+inverter+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 999,
-      "brand": "Champion",
-      "electric_start": true,
-      "fuel": "gasoline / propane",
-      "inverter": true,
-      "name": "Champion 4500W Dual Fuel Inverter (200989)",
-      "noise_dba": "61",
-      "notes": "Dual fuel: 3,500 running watts on gasoline, 3,150 on propane; up to 14 hrs on gas, 21 hrs on propane; CO Shield shutoff. Champion US no longer lists this model (Nov 2026 check); successor 201319 listed at $1,022.99.",
-      "running_watts": 3500,
-      "slug": "champion-4500-dual-fuel-inverter",
-      "starting_watts": 4500,
-      "type": "portable generator",
-      "weight_lb": 92.2,
-      "buy_url": "https://www.amazon.com/s?k=Champion+4500+watt+dual+fuel+inverter+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 800,
-      "brand": "Firman",
-      "electric_start": true,
-      "fuel": "gasoline",
-      "inverter": false,
-      "name": "Firman P03631",
-      "noise_dba": "67 at 25% load",
-      "notes": "Conventional open-frame 120/240V unit with remote start and 5-gal tank (14 hrs at 50% load); louder and dirtier power than inverters.",
-      "running_watts": 3650,
-      "slug": "firman-p03631",
-      "starting_watts": 4550,
-      "type": "portable generator",
-      "weight_lb": 119.5,
-      "buy_url": "https://www.amazon.com/s?k=Firman+P03631+portable+generator+3650+watts&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 1299,
-      "brand": "DuroMax",
-      "electric_start": true,
-      "fuel": "gasoline / propane",
-      "inverter": false,
-      "name": "DuroMax XP13000EH",
-      "noise_dba": "74",
-      "notes": "Standby-class output in a portable frame: 10,500 running watts on gasoline, 10,000 on propane; 50A outlet for a transfer switch or inlet box.",
-      "running_watts": 10500,
-      "slug": "duromax-xp13000eh",
-      "starting_watts": 13000,
-      "type": "portable generator",
-      "weight_lb": 234,
-      "buy_url": "https://www.amazon.com/s?k=DuroMax+XP13000EH+dual+fuel+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    }
-  ],
-  "portable_power_stations": [
-    {
-      "approx_price_usd": 4199,
-      "brand": "EcoFlow",
-      "capacity_wh": 6144,
-      "expandable": true,
-      "name": "EcoFlow DELTA Pro Ultra",
-      "notes": "Whole-home capable with Smart Home Panel; stackable to 90kWh.",
-      "output_w": 7200,
-      "slug": "ecoflow-delta-pro-ultra",
-      "type": "power station",
-      "buy_url": "https://www.amazon.com/s?k=EcoFlow+DELTA+Pro+Ultra+power+station&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 2799,
-      "brand": "EcoFlow",
-      "capacity_wh": 4096,
-      "expandable": true,
-      "name": "EcoFlow DELTA Pro 3",
-      "notes": "240V output; popular RV and home backup pick.",
-      "output_w": 4000,
-      "slug": "ecoflow-delta-pro-3",
-      "type": "power station",
-      "buy_url": "https://www.amazon.com/s?k=EcoFlow+DELTA+Pro+3+portable+power+station&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 1049,
-      "brand": "EcoFlow",
-      "capacity_wh": 2048,
-      "expandable": true,
-      "name": "EcoFlow DELTA 2 Max",
-      "notes": "Mid-size essentials backup; LFP battery.",
-      "output_w": 2400,
-      "slug": "ecoflow-delta-2-max",
-      "type": "power station",
-      "buy_url": "https://www.amazon.com/s?k=EcoFlow+DELTA+2+Max+portable+power+station&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 1600,
-      "brand": "BLUETTI",
-      "capacity_wh": 2765,
-      "expandable": true,
-      "name": "BLUETTI AC300 + B300K",
-      "notes": "Modular system; good value per watt-hour. AC300 kits no longer listed on BLUETTI US at Nov 2026 check; Apex 300 is the current replacement line.",
-      "output_w": 3000,
-      "type": "power station"
-    },
-    {
-      "approx_price_usd": 1500,
-      "brand": "BLUETTI",
-      "capacity_wh": 2764.8,
-      "expandable": true,
-      "name": "BLUETTI Apex 300",
-      "notes": "Modular home-backup station; expandable up to 58kWh with B300K batteries; 120/240V output.",
-      "output_w": 3840,
-      "slug": "bluetti-apex-300",
-      "type": "power station",
-      "weight_lb": 83.8,
-      "buy_url": "https://www.amazon.com/s?k=BLUETTI+Apex+300+portable+power+station&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 899,
-      "brand": "BLUETTI",
-      "capacity_wh": 2073.6,
-      "expandable": false,
-      "name": "BLUETTI Elite 200 V2",
-      "notes": "Sealed 2kWh-class station; 3,900W Power Lifting mode for resistive loads.",
-      "output_w": 2600,
-      "slug": "bluetti-elite-200-v2",
-      "type": "power station",
-      "weight_lb": 53.4,
-      "buy_url": "https://www.amazon.com/s?k=BLUETTI+Elite+200+V2+portable+power+station&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 1400,
-      "brand": "Jackery",
-      "capacity_wh": 2042,
-      "expandable": true,
-      "name": "Jackery Explorer 2000 Plus",
-      "notes": "Expandable to 24kWh; strong solar-charging ecosystem. Discontinued per Jackery US (Nov 2026 check); successor is the HomePower 2000 Plus v2.",
-      "output_w": 3000,
-      "slug": "jackery-explorer-2000-plus",
-      "type": "power station",
-      "buy_url": "https://www.amazon.com/s?k=Jackery+Explorer+2000+Plus+portable+power+station&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    },
-    {
-      "approx_price_usd": 509,
-      "brand": "Jackery",
-      "capacity_wh": 1070,
-      "expandable": false,
-      "name": "Jackery Explorer 1000 v2",
-      "notes": "Light essentials and camping; fast AC charging. Sold out on Jackery US at Nov 2026 check (Dune White $509, Black $559).",
-      "output_w": 1500,
-      "type": "power station"
-    },
-    {
-      "approx_price_usd": 299,
-      "brand": "Jackery",
-      "capacity_wh": 288,
-      "expandable": false,
-      "name": "Jackery Explorer 300 Plus",
-      "notes": "Backpack-size LiFePO4 station; discontinued in the US in 2026, price is last US list price. Discontinued per Jackery CA/UK pages (Nov 2026 check); successor is the Explorer 300 v2.",
-      "output_w": 300,
-      "slug": "jackery-explorer-300-plus",
-      "type": "power station",
-      "weight_lb": 8.27,
-      "buy_url": "https://www.amazon.com/s?k=Jackery+Explorer+300+Plus+portable+power+station&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    }
-  ],
-  "sizing_rule_of_thumb": {
-    "essentials_only_kw": "7.5-14",
-    "mid_size_home_2000_sqft_kw": "14-18 for essentials-plus, 20-24 for whole-home with load management",
-    "note": "Actual sizing depends on HVAC tonnage, well pump, electric range/dryer, and load management. Starting (surge) watts of central AC are the usual deciding factor."
+  {
+   "approx_price_usd": 1100,
+   "brand": "BLUETTI",
+   "capacity_wh": 2764.8,
+   "compatible": "BLUETTI Apex 300, AC300, AC500, AC200L, AC200MAX",
+   "name": "BLUETTI B300K Expansion Battery",
+   "notes": "LiFePO4 pack with 4,000+ cycles to 80%; also has a small USB output for standalone use.",
+   "slug": "bluetti-b300k",
+   "type": "expansion battery",
+   "weight_lb": 65
   },
-  "solar_panels": [
-    {
-      "approx_price_usd": 499,
-      "brand": "EcoFlow",
-      "name": "EcoFlow 400W Rigid Solar Panel",
-      "notes": "Rigid monocrystalline panel, 23% efficiency, IP68; sold per panel, usually in 2-packs (~$999). For permanent mounts feeding EcoFlow stations or a home system.",
-      "panel_type": "rigid",
-      "slug": "ecoflow-400w-rigid-panel",
-      "type": "solar panel",
-      "watts": 400,
-      "weight_lb": 48.1,
-      "buy_url": "https://www.amazon.com/s?k=EcoFlow+400W+rigid+solar+panel&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+  {
+   "approx_price_usd": 799,
+   "brand": "Jackery",
+   "capacity_wh": 2042.8,
+   "compatible": "Jackery Explorer 2000 Plus",
+   "name": "Jackery Battery Pack 2000 Plus",
+   "notes": "LiFePO4 pack for the Explorer 2000 Plus only; up to five packs per station (12kWh), or 24kWh across paired stations. Listed at $799 on Jackery US (Nov 2026 check); shown sold out there at check time.",
+   "slug": "jackery-battery-pack-2000-plus",
+   "type": "expansion battery",
+   "weight_lb": 41.9
+  }
+ ],
+ "installed_cost_ranges_usd": {
+  "10-14kW": "9500-12000 installed total",
+  "18-22kW": "11000-14000 installed total",
+  "24-26kW": "12000-16000 installed total",
+  "note": "Includes equipment, transfer switch, typical gas and electrical work, permits, and pad. Complex installs run higher."
+ },
+ "portable_generators": [
+  {
+   "approx_price_usd": 1150,
+   "brand": "Honda",
+   "electric_start": false,
+   "fuel": "gasoline",
+   "inverter": true,
+   "name": "Honda EU2200i",
+   "noise_dba": "48-57",
+   "notes": "The benchmark small inverter: GXR120 commercial engine, recoil start only, parallel-capable; 3.2-8.1 hrs on a 0.95-gal tank.",
+   "running_watts": 1800,
+   "slug": "honda-eu2200i",
+   "starting_watts": 2200,
+   "type": "portable generator",
+   "weight_lb": 47.4
+  },
+  {
+   "approx_price_usd": 509.99,
+   "brand": "WEN",
+   "electric_start": false,
+   "fuel": "gasoline",
+   "inverter": true,
+   "name": "WEN 56235i",
+   "noise_dba": "51 at quarter load",
+   "notes": "Budget Honda alternative; fuel shutoff drains the carb for storage; 2-year warranty; about 10.5 hrs at quarter load. Price re-verified 2026-11-12: $509.99 at WEN's own store (wenproducts.com).",
+   "running_watts": 1900,
+   "slug": "wen-56235i",
+   "starting_watts": 2350,
+   "type": "portable generator",
+   "weight_lb": 39
+  },
+  {
+   "approx_price_usd": 899,
+   "brand": "Westinghouse",
+   "electric_start": true,
+   "fuel": "gasoline",
+   "inverter": true,
+   "name": "Westinghouse iGen4500",
+   "noise_dba": "52",
+   "notes": "Quietest in its size class; remote/electric/recoil start, RV TT-30R outlet, up to 18 hrs on 3.4 gal at quarter load.",
+   "running_watts": 3700,
+   "slug": "westinghouse-igen4500",
+   "starting_watts": 4500,
+   "type": "portable generator",
+   "weight_lb": 98
+  },
+  {
+   "approx_price_usd": 999,
+   "brand": "Champion",
+   "electric_start": true,
+   "fuel": "gasoline / propane",
+   "inverter": true,
+   "name": "Champion 4500W Dual Fuel Inverter (200989)",
+   "noise_dba": "61",
+   "notes": "Dual fuel: 3,500 running watts on gasoline, 3,150 on propane; up to 14 hrs on gas, 21 hrs on propane; CO Shield shutoff. Champion US no longer lists this model (Nov 2026 check); successor 201319 listed at $1,022.99.",
+   "running_watts": 3500,
+   "slug": "champion-4500-dual-fuel-inverter",
+   "starting_watts": 4500,
+   "type": "portable generator",
+   "weight_lb": 92.2
+  },
+  {
+   "approx_price_usd": 800,
+   "brand": "Firman",
+   "electric_start": true,
+   "fuel": "gasoline",
+   "inverter": false,
+   "name": "Firman P03631",
+   "noise_dba": "67 at 25% load",
+   "notes": "Conventional open-frame 120/240V unit with remote start and 5-gal tank (14 hrs at 50% load); louder and dirtier power than inverters.",
+   "running_watts": 3650,
+   "slug": "firman-p03631",
+   "starting_watts": 4550,
+   "type": "portable generator",
+   "weight_lb": 119.5
+  },
+  {
+   "approx_price_usd": 1299,
+   "brand": "DuroMax",
+   "electric_start": true,
+   "fuel": "gasoline / propane",
+   "inverter": false,
+   "name": "DuroMax XP13000EH",
+   "noise_dba": "74",
+   "notes": "Standby-class output in a portable frame: 10,500 running watts on gasoline, 10,000 on propane; 50A outlet for a transfer switch or inlet box.",
+   "running_watts": 10500,
+   "slug": "duromax-xp13000eh",
+   "starting_watts": 13000,
+   "type": "portable generator",
+   "weight_lb": 234
+  }
+ ],
+ "portable_power_stations": [
+  {
+   "approx_price_usd": 4199,
+   "brand": "EcoFlow",
+   "capacity_wh": 6144,
+   "expandable": true,
+   "name": "EcoFlow DELTA Pro Ultra",
+   "notes": "Whole-home capable with Smart Home Panel; stackable to 90kWh.",
+   "output_w": 7200,
+   "slug": "ecoflow-delta-pro-ultra",
+   "type": "power station"
+  },
+  {
+   "approx_price_usd": 2799,
+   "brand": "EcoFlow",
+   "capacity_wh": 4096,
+   "expandable": true,
+   "name": "EcoFlow DELTA Pro 3",
+   "notes": "240V output; popular RV and home backup pick.",
+   "output_w": 4000,
+   "slug": "ecoflow-delta-pro-3",
+   "type": "power station"
+  },
+  {
+   "approx_price_usd": 1049,
+   "brand": "EcoFlow",
+   "capacity_wh": 2048,
+   "expandable": true,
+   "name": "EcoFlow DELTA 2 Max",
+   "notes": "Mid-size essentials backup; LFP battery. 2026-11-12 check: base unit $1,029 in stock at EcoFlow US; $1,049 now matches a members-only bundle variant (unavailable) \u2014 price left at $1,049 (within 2%).",
+   "output_w": 2400,
+   "slug": "ecoflow-delta-2-max",
+   "type": "power station"
+  },
+  {
+   "approx_price_usd": 1600,
+   "brand": "BLUETTI",
+   "capacity_wh": 2765,
+   "expandable": true,
+   "name": "BLUETTI AC300 + B300K",
+   "notes": "Modular system; good value per watt-hour. AC300 kits no longer listed on BLUETTI US at Nov 2026 check; Apex 300 is the current replacement line.",
+   "output_w": 3000,
+   "type": "power station"
+  },
+  {
+   "approx_price_usd": 1500,
+   "brand": "BLUETTI",
+   "capacity_wh": 2764.8,
+   "expandable": true,
+   "name": "BLUETTI Apex 300",
+   "notes": "Modular home-backup station; expandable up to 58kWh with B300K batteries; 120/240V output.",
+   "output_w": 3840,
+   "slug": "bluetti-apex-300",
+   "type": "power station",
+   "weight_lb": 83.8
+  },
+  {
+   "approx_price_usd": 899,
+   "brand": "BLUETTI",
+   "capacity_wh": 2073.6,
+   "expandable": false,
+   "name": "BLUETTI Elite 200 V2",
+   "notes": "Sealed 2kWh-class station; 3,900W Power Lifting mode for resistive loads.",
+   "output_w": 2600,
+   "slug": "bluetti-elite-200-v2",
+   "type": "power station",
+   "weight_lb": 53.4
+  },
+  {
+   "approx_price_usd": 1400,
+   "brand": "Jackery",
+   "capacity_wh": 2042,
+   "expandable": true,
+   "name": "Jackery Explorer 2000 Plus",
+   "notes": "Expandable to 24kWh; strong solar-charging ecosystem. Discontinued per Jackery US (Nov 2026 check); successor is the HomePower 2000 Plus v2.",
+   "output_w": 3000,
+   "slug": "jackery-explorer-2000-plus",
+   "type": "power station"
+  },
+  {
+   "approx_price_usd": 509,
+   "brand": "Jackery",
+   "capacity_wh": 1070,
+   "expandable": false,
+   "name": "Jackery Explorer 1000 v2",
+   "notes": "Light essentials and camping; fast AC charging. Sold out on Jackery US at Nov 2026 check (Dune White $509, Black $559).",
+   "output_w": 1500,
+   "type": "power station"
+  },
+  {
+   "approx_price_usd": 299,
+   "brand": "Jackery",
+   "capacity_wh": 288,
+   "expandable": false,
+   "name": "Jackery Explorer 300 Plus",
+   "notes": "Backpack-size LiFePO4 station; discontinued in the US in 2026, price is last US list price. Discontinued per Jackery CA/UK pages (Nov 2026 check); successor is the Explorer 300 v2.",
+   "output_w": 300,
+   "slug": "jackery-explorer-300-plus",
+   "type": "power station",
+   "weight_lb": 8.27
+  }
+ ],
+ "sizing_rule_of_thumb": {
+  "essentials_only_kw": "7.5-14",
+  "mid_size_home_2000_sqft_kw": "14-18 for essentials-plus, 20-24 for whole-home with load management",
+  "note": "Actual sizing depends on HVAC tonnage, well pump, electric range/dryer, and load management. Starting (surge) watts of central AC are the usual deciding factor."
+ },
+ "solar_panels": [
+  {
+   "approx_price_usd": 499,
+   "brand": "EcoFlow",
+   "name": "EcoFlow 400W Rigid Solar Panel",
+   "notes": "Rigid monocrystalline panel, 23% efficiency, IP68; sold per panel, usually in 2-packs (~$999). For permanent mounts feeding EcoFlow stations or a home system.",
+   "panel_type": "rigid",
+   "slug": "ecoflow-400w-rigid-panel",
+   "type": "solar panel",
+   "watts": 400,
+   "weight_lb": 48.1
+  },
+  {
+   "approx_price_usd": 449,
+   "brand": "EcoFlow",
+   "name": "EcoFlow 220W Bifacial Portable Solar Panel",
+   "notes": "Folding bifacial panel: 220W front plus a 155W rear face for ambient/reflected light; IP68; the carry-anywhere pick for EcoFlow stations. Now sold as the NextGen 220W Bifacial panel.",
+   "panel_type": "folding bifacial",
+   "slug": "ecoflow-220w-bifacial-panel",
+   "type": "solar panel",
+   "watts": 220,
+   "weight_lb": 20.9
+  },
+  {
+   "approx_price_usd": 379,
+   "brand": "Jackery",
+   "name": "Jackery SolarSaga 200W Solar Panel",
+   "notes": "Folding panel with Jackery DC8020 connector for Explorer stations; IP68; USB-A/USB-C ports on the panel itself.",
+   "panel_type": "folding",
+   "slug": "jackery-solarsaga-200",
+   "type": "solar panel",
+   "watts": 200,
+   "weight_lb": 13.7
+  },
+  {
+   "approx_price_usd": 649,
+   "brand": "BLUETTI",
+   "name": "BLUETTI PV350 Solar Panel",
+   "notes": "Big folding panel for fast charging of larger BLUETTI stations; MC4 output also works with most other brands' MPPT inputs.",
+   "panel_type": "folding",
+   "slug": "bluetti-pv350",
+   "type": "solar panel",
+   "watts": 350,
+   "weight_lb": 30.6
+  }
+ ],
+ "standby_generators": [
+  {
+   "approx_price_usd": 6900,
+   "brand": "Generac",
+   "fuel": "natural gas / liquid propane",
+   "fuel_consumption": {
+    "checked": "2026-11-05",
+    "lp_gal_hr": {
+     "full": 3.63,
+     "half": 2.06
     },
-    {
-      "approx_price_usd": 449,
-      "brand": "EcoFlow",
-      "name": "EcoFlow 220W Bifacial Portable Solar Panel",
-      "notes": "Folding bifacial panel: 220W front plus a 155W rear face for ambient/reflected light; IP68; the carry-anywhere pick for EcoFlow stations. Now sold as the NextGen 220W Bifacial panel.",
-      "panel_type": "folding bifacial",
-      "slug": "ecoflow-220w-bifacial-panel",
-      "type": "solar panel",
-      "watts": 220,
-      "weight_lb": 20.9,
-      "buy_url": "https://www.amazon.com/s?k=EcoFlow+220W+bifacial+portable+solar+panel&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+    "ng_cfh": {
+     "full": 333,
+     "half": 188
     },
-    {
-      "approx_price_usd": 379,
-      "brand": "Jackery",
-      "name": "Jackery SolarSaga 200W Solar Panel",
-      "notes": "Folding panel with Jackery DC8020 connector for Explorer stations; IP68; USB-A/USB-C ports on the panel itself.",
-      "panel_type": "folding",
-      "slug": "jackery-solarsaga-200",
-      "type": "solar panel",
-      "watts": 200,
-      "weight_lb": 13.7,
-      "buy_url": "https://www.amazon.com/s?k=Jackery+SolarSaga+200W+solar+panel&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+    "source": "Generac Guardian 26 kW spec sheet (models G007290/G007291)"
+   },
+   "kw": 26,
+   "name": "Generac Guardian 26kW",
+   "notes": "Largest air-cooled Guardian; 22.5kW on natural gas; Wi-Fi monitoring standard. 2026-11-12 check: Norwall lists $6,849 in stock (price left at $6,900, within 2%); Norwall's og:availability meta reads 'oos' \u2014 stale tag, watch.",
+   "slug": "generac-guardian-26kw",
+   "type": "standby",
+   "warranty_years": 5
+  },
+  {
+   "approx_price_usd": 6600,
+   "brand": "Generac",
+   "fuel": "natural gas / liquid propane",
+   "fuel_consumption": {
+    "checked": "2026-11-05",
+    "lp_gal_hr": {
+     "full": 3.9,
+     "half": 2.53
     },
-    {
-      "approx_price_usd": 649,
-      "brand": "BLUETTI",
-      "name": "BLUETTI PV350 Solar Panel",
-      "notes": "Big folding panel for fast charging of larger BLUETTI stations; MC4 output also works with most other brands' MPPT inputs.",
-      "panel_type": "folding",
-      "slug": "bluetti-pv350",
-      "type": "solar panel",
-      "watts": 350,
-      "weight_lb": 30.6,
-      "buy_url": "https://www.amazon.com/s?k=BLUETTI+PV350+solar+panel+350W&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    }
-  ],
-  "standby_generators": [
-    {
-      "approx_price_usd": 6900,
-      "brand": "Generac",
-      "fuel": "natural gas / liquid propane",
-      "fuel_consumption": {
-        "checked": "2026-11-05",
-        "lp_gal_hr": {
-          "full": 3.63,
-          "half": 2.06
-        },
-        "ng_cfh": {
-          "full": 333,
-          "half": 188
-        },
-        "source": "Generac Guardian 26 kW spec sheet (models G007290/G007291)"
-      },
-      "kw": 26,
-      "name": "Generac Guardian 26kW",
-      "notes": "Largest air-cooled Guardian; 22.5kW on natural gas; Wi-Fi monitoring standard.",
-      "slug": "generac-guardian-26kw",
-      "type": "standby",
-      "warranty_years": 5,
-      "buy_url": "https://www.amazon.com/s?k=Generac+Guardian+26kW+standby+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+    "ng_cfh": {
+     "full": 306,
+     "half": 203
     },
-    {
-      "approx_price_usd": 6600,
-      "brand": "Generac",
-      "fuel": "natural gas / liquid propane",
-      "fuel_consumption": {
-        "checked": "2026-11-05",
-        "lp_gal_hr": {
-          "full": 3.9,
-          "half": 2.53
-        },
-        "ng_cfh": {
-          "full": 306,
-          "half": 203
-        },
-        "source": "Generac Guardian 20/22/24 kW spec sheet (model G007209)"
-      },
-      "kw": 24,
-      "name": "Generac Guardian 24kW",
-      "notes": "Best-selling whole-home standby in the US; large dealer network; Wi-Fi monitoring standard.",
-      "slug": "generac-guardian-24kw",
-      "type": "standby",
-      "warranty_years": 5,
-      "buy_url": "https://www.amazon.com/s?k=Generac+Guardian+24kW+standby+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+    "source": "Generac Guardian 20/22/24 kW spec sheet (model G007209)"
+   },
+   "kw": 24,
+   "name": "Generac Guardian 24kW",
+   "notes": "Best-selling whole-home standby in the US; large dealer network; Wi-Fi monitoring standard.",
+   "slug": "generac-guardian-24kw",
+   "type": "standby",
+   "warranty_years": 5
+  },
+  {
+   "approx_price_usd": 6100,
+   "brand": "Generac",
+   "fuel": "natural gas / liquid propane",
+   "fuel_consumption": {
+    "checked": "2026-11-05",
+    "lp_gal_hr": {
+     "full": 3.9,
+     "half": 2.53
     },
-    {
-      "approx_price_usd": 6100,
-      "brand": "Generac",
-      "fuel": "natural gas / liquid propane",
-      "fuel_consumption": {
-        "checked": "2026-11-05",
-        "lp_gal_hr": {
-          "full": 3.9,
-          "half": 2.53
-        },
-        "ng_cfh": {
-          "full": 327,
-          "half": 228
-        },
-        "source": "Generac Guardian 20/22/24 kW spec sheet (model G007042)"
-      },
-      "kw": 22,
-      "name": "Generac Guardian 22kW",
-      "notes": "Whole-home coverage for mid-to-large homes; 19.5kW on natural gas.",
-      "slug": "generac-guardian-22kw",
-      "type": "standby",
-      "warranty_years": 5,
-      "buy_url": "https://www.amazon.com/s?k=Generac+Guardian+22kW+standby+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+    "ng_cfh": {
+     "full": 327,
+     "half": 228
     },
-    {
-      "approx_price_usd": 5300,
-      "brand": "Generac",
-      "fuel": "natural gas / liquid propane",
-      "fuel_consumption": {
-        "checked": "2026-11-05",
-        "lp_gal_hr": {
-          "full": 3.02,
-          "half": 1.7
-        },
-        "ng_cfh": {
-          "full": 247,
-          "half": 169
-        },
-        "source": "Generac Guardian 10/14/18 kW spec sheet (model G007226)"
-      },
-      "kw": 18,
-      "name": "Generac Guardian 18kW",
-      "notes": "Common pick for essentials-plus coverage in mid-size homes.",
-      "slug": "generac-guardian-18kw",
-      "type": "standby",
-      "warranty_years": 5,
-      "buy_url": "https://www.amazon.com/s?k=Generac+Guardian+18kW+standby+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+    "source": "Generac Guardian 20/22/24 kW spec sheet (model G007042)"
+   },
+   "kw": 22,
+   "name": "Generac Guardian 22kW",
+   "notes": "Whole-home coverage for mid-to-large homes; 19.5kW on natural gas.",
+   "slug": "generac-guardian-22kw",
+   "type": "standby",
+   "warranty_years": 5
+  },
+  {
+   "approx_price_usd": 5300,
+   "brand": "Generac",
+   "fuel": "natural gas / liquid propane",
+   "fuel_consumption": {
+    "checked": "2026-11-05",
+    "lp_gal_hr": {
+     "full": 3.02,
+     "half": 1.7
     },
-    {
-      "approx_price_usd": 4500,
-      "brand": "Generac",
-      "fuel": "natural gas / liquid propane",
-      "fuel_consumption": {
-        "checked": "2026-11-05",
-        "lp_gal_hr": {
-          "full": 3.07,
-          "half": 1.81
-        },
-        "ng_cfh": {
-          "full": 256,
-          "half": 195
-        },
-        "source": "Generac Guardian 10/14/18 kW spec sheet (model G007223)"
-      },
-      "kw": 14,
-      "name": "Generac Guardian 14kW",
-      "notes": "Essentials coverage for smaller homes or managed loads.",
-      "slug": "generac-guardian-14kw",
-      "type": "standby",
-      "warranty_years": 5,
-      "buy_url": "https://www.amazon.com/s?k=Generac+Guardian+14kW+standby+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+    "ng_cfh": {
+     "full": 247,
+     "half": 169
     },
-    {
-      "approx_price_usd": 7500,
-      "brand": "Kohler",
-      "fuel": "natural gas / liquid propane",
-      "fuel_consumption": {
-        "checked": "2026-11-05",
-        "lp_gal_hr": {
-          "full": 3.54,
-          "half": 2.34
-        },
-        "ng_cfh": {
-          "full": 290,
-          "half": 180
-        },
-        "source": "Kohler 26RCA spec sheet G4-315 (LP published in ft\u00b3/hr; gal/hr using the sheet's own 36.39 ft\u00b3/gal factor)"
-      },
-      "kw": 26,
-      "name": "Kohler 26kW (26RCA)",
-      "notes": "Largest air-cooled Kohler; 24kW on natural gas; 39 kVA motor-starting capacity.",
-      "slug": "kohler-26rca",
-      "type": "standby",
-      "warranty_years": 5,
-      "buy_url": "https://www.amazon.com/s?k=Kohler+26RCA+standby+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+    "source": "Generac Guardian 10/14/18 kW spec sheet (model G007226)"
+   },
+   "kw": 18,
+   "name": "Generac Guardian 18kW",
+   "notes": "Common pick for essentials-plus coverage in mid-size homes.",
+   "slug": "generac-guardian-18kw",
+   "type": "standby",
+   "warranty_years": 5
+  },
+  {
+   "approx_price_usd": 4500,
+   "brand": "Generac",
+   "fuel": "natural gas / liquid propane",
+   "fuel_consumption": {
+    "checked": "2026-11-05",
+    "lp_gal_hr": {
+     "full": 3.07,
+     "half": 1.81
     },
-    {
-      "approx_price_usd": 6000,
-      "brand": "Kohler",
-      "fuel": "natural gas / liquid propane",
-      "fuel_consumption": {
-        "checked": "2026-11-05",
-        "lp_gal_hr": {
-          "full": 3.74,
-          "half": 2.25
-        },
-        "ng_cfh": {
-          "full": 281,
-          "half": 161
-        },
-        "source": "Kohler 20RCA spec sheet G4-272 (LP published in ft\u00b3/hr; gal/hr using the sheet's own 36.39 ft\u00b3/gal factor)"
-      },
-      "kw": 20,
-      "name": "Kohler 20kW (20RCA)",
-      "notes": "Known for fast (10-second) transfer and corrosion-resistant enclosure.",
-      "slug": "kohler-20rca",
-      "type": "standby",
-      "warranty_years": 5,
-      "buy_url": "https://www.amazon.com/s?k=Kohler+20RCA+standby+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+    "ng_cfh": {
+     "full": 256,
+     "half": 195
     },
-    {
-      "approx_price_usd": 4900,
-      "brand": "Kohler",
-      "fuel": "natural gas / liquid propane",
-      "fuel_consumption": {
-        "checked": "2026-11-05",
-        "lp_gal_hr": {
-          "full": 2.23,
-          "half": 1.65
-        },
-        "ng_cfh": {
-          "full": 193,
-          "half": 124
-        },
-        "source": "Kohler 14RCA spec sheet G4-270 (LP published in ft\u00b3/hr; gal/hr using the sheet's own 36.39 ft\u00b3/gal factor)"
-      },
-      "kw": 14,
-      "name": "Kohler 14kW (14RCA)",
-      "notes": "Smaller-footprint Kohler with the same fast transfer.",
-      "slug": "kohler-14rca",
-      "type": "standby",
-      "warranty_years": 5,
-      "buy_url": "https://www.amazon.com/s?k=Kohler+14RCA+standby+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+    "source": "Generac Guardian 10/14/18 kW spec sheet (model G007223)"
+   },
+   "kw": 14,
+   "name": "Generac Guardian 14kW",
+   "notes": "Essentials coverage for smaller homes or managed loads.",
+   "slug": "generac-guardian-14kw",
+   "type": "standby",
+   "warranty_years": 5
+  },
+  {
+   "approx_price_usd": 7500,
+   "brand": "Kohler",
+   "fuel": "natural gas / liquid propane",
+   "fuel_consumption": {
+    "checked": "2026-11-05",
+    "lp_gal_hr": {
+     "full": 3.54,
+     "half": 2.34
     },
-    {
-      "approx_price_usd": 5800,
-      "brand": "Cummins",
-      "fuel": "natural gas / liquid propane",
-      "fuel_consumption": {
-        "checked": "2026-11-05",
-        "lp_gal_hr": {
-          "full": 3.08,
-          "half": 1.81
-        },
-        "ng_cfh": {
-          "full": 268,
-          "half": 172
-        },
-        "source": "Cummins QuietConnect spec sheet NAS-6254-EN (LP published in ft\u00b3/hr; gal/hr using the spec sheet's own 36.39 ft\u00b3/gal factor)"
-      },
-      "kw": 20,
-      "name": "Cummins QuietConnect 20kW (RS20A)",
-      "notes": "Among the quietest standby units; strong commercial engine heritage.",
-      "slug": "cummins-quietconnect-rs20a",
-      "type": "standby",
-      "warranty_years": 5,
-      "buy_url": "https://www.amazon.com/s?k=Cummins+QuietConnect+RS20A+standby+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+    "ng_cfh": {
+     "full": 290,
+     "half": 180
     },
-    {
-      "approx_price_usd": 4300,
-      "brand": "Cummins",
-      "fuel": "natural gas / liquid propane",
-      "fuel_consumption": {
-        "checked": "2026-11-05",
-        "lp_gal_hr": {
-          "full": 2.28,
-          "half": 1.4
-        },
-        "ng_cfh": {
-          "full": 228,
-          "half": 154
-        },
-        "source": "Cummins QuietConnect spec sheet NAS-6254-EN (LP published in ft\u00b3/hr; gal/hr using the spec sheet's own 36.39 ft\u00b3/gal factor)"
-      },
-      "kw": 13,
-      "name": "Cummins QuietConnect 13kW (RS13A)",
-      "notes": "Compact QuietConnect rated 65 dB(A); full 13kW on both natural gas and propane.",
-      "slug": "cummins-quietconnect-rs13a",
-      "type": "standby",
-      "warranty_years": 5,
-      "buy_url": "https://www.amazon.com/s?k=Cummins+QuietConnect+RS13A+standby+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
+    "source": "Kohler 26RCA spec sheet G4-315 (LP published in ft\u00b3/hr; gal/hr using the sheet's own 36.39 ft\u00b3/gal factor)"
+   },
+   "kw": 26,
+   "name": "Kohler 26kW (26RCA)",
+   "notes": "Largest air-cooled Kohler; 24kW on natural gas; 39 kVA motor-starting capacity.",
+   "slug": "kohler-26rca",
+   "type": "standby",
+   "warranty_years": 5
+  },
+  {
+   "approx_price_usd": 6000,
+   "brand": "Kohler",
+   "fuel": "natural gas / liquid propane",
+   "fuel_consumption": {
+    "checked": "2026-11-05",
+    "lp_gal_hr": {
+     "full": 3.74,
+     "half": 2.25
     },
-    {
-      "approx_price_usd": 3900,
-      "brand": "Champion",
-      "fuel": "natural gas / liquid propane",
-      "fuel_consumption": {
-        "checked": "2026-11-05",
-        "lp_gal_hr": {
-          "full": 2.6,
-          "half": 1.6
-        },
-        "ng_cfh": {
-          "full": 180.1,
-          "half": 116.5
-        },
-        "source": "Champion 14 kW aXis fact sheet (model 100515)"
-      },
-      "kw": 14,
-      "name": "Champion 14kW Standby",
-      "notes": "Budget-friendly with a notably long 10-year limited warranty.",
-      "slug": "champion-axis-14kw",
-      "type": "standby",
-      "warranty_years": 10,
-      "buy_url": "https://www.amazon.com/s?k=Champion+14kW+home+standby+generator&tag=homegenerat0c-20",
-      "buy_url_type": "affiliate link (Amazon Associates)"
-    }
-  ],
-  "updated": "2026-11-07",
-  "buy_url_note": "Products with a 'slug' also carry 'buy_url': an Amazon Associates affiliate link belonging to Home Generator HQ (tag homegenerat0c-20). See https://homegeneratorhq.com/for-agents/ for dataset terms.",
-  "price_note": "'approx_price_usd' is the manufacturer's published price (or a major retailer's price where the manufacturer does not sell direct), verified first-hand on the 'updated' date. It is NOT an Amazon price: Amazon's price for the same product may differ. Amazon Associates policy only permits displaying prices Amazon itself supplies, so this dataset labels every price with its real source instead.",
-  "changelog": [
-    {
-      "date": "2026-11-03",
-      "change": "Site launched."
+    "ng_cfh": {
+     "full": 281,
+     "half": 161
     },
-    {
-      "date": "2026-11-03",
-      "change": "Homepage dataset table: every name is now a clickable link; tables made phone-friendly."
+    "source": "Kohler 20RCA spec sheet G4-272 (LP published in ft\u00b3/hr; gal/hr using the sheet's own 36.39 ft\u00b3/gal factor)"
+   },
+   "kw": 20,
+   "name": "Kohler 20kW (20RCA)",
+   "notes": "Known for fast (10-second) transfer and corrosion-resistant enclosure.",
+   "slug": "kohler-20rca",
+   "type": "standby",
+   "warranty_years": 5
+  },
+  {
+   "approx_price_usd": 4900,
+   "brand": "Kohler",
+   "fuel": "natural gas / liquid propane",
+   "fuel_consumption": {
+    "checked": "2026-11-05",
+    "lp_gal_hr": {
+     "full": 2.23,
+     "half": 1.65
     },
-    {
-      "date": "2026-11-03",
-      "change": "Added lite dataset for agents (fewer tokens to read) and this changelog."
+    "ng_cfh": {
+     "full": 193,
+     "half": 124
     },
-    {
-      "date": "2026-11-03",
-      "change": "Weekly price check: DELTA Pro 3 $2,500 -> $2,799, EcoFlow 220W panel $399 -> $449 (now NextGen), BLUETTI PV350 $699 -> $649, Jackery Battery Pack 2000 Plus $1,099 -> $799; Explorer 2000 Plus and Explorer 300 Plus discontinued, DELTA Pro Smart Extra Battery will not be restocked, AC300 kits no longer listed."
+    "source": "Kohler 14RCA spec sheet G4-270 (LP published in ft\u00b3/hr; gal/hr using the sheet's own 36.39 ft\u00b3/gal factor)"
+   },
+   "kw": 14,
+   "name": "Kohler 14kW (14RCA)",
+   "notes": "Smaller-footprint Kohler with the same fast transfer.",
+   "slug": "kohler-14rca",
+   "type": "standby",
+   "warranty_years": 5
+  },
+  {
+   "approx_price_usd": 5800,
+   "brand": "Cummins",
+   "fuel": "natural gas / liquid propane",
+   "fuel_consumption": {
+    "checked": "2026-11-05",
+    "lp_gal_hr": {
+     "full": 3.08,
+     "half": 1.81
     },
-    {
-      "date": "2026-11-05",
-      "change": "Size calculator: results now lead with the size answer and the recommended models; standby results show an estimated fuel cost per 24 hours, interpolated from manufacturer spec-sheet consumption figures (checked 2026-11-05); an optional email signup delivers the pre-outage checklist right on the page; per-load quantity selectors were removed to keep the form fast."
+    "ng_cfh": {
+     "full": 268,
+     "half": 172
     },
-    {
-      "date": "2026-11-07",
-      "change": "Weekly price check: DELTA Pro Ultra $4,400 -> $4,199, DELTA 2 Max $1,000 -> $1,049, DELTA Pro Smart Extra Battery $1,599 -> $1,199, Explorer 1000 v2 $500 -> $509, Generac Guardian 18kW $5,100 -> $5,300, Kohler 14RCA $4,700 -> $4,900, Champion aXis 14kW $4,300 -> $3,900; Champion 200989 no longer listed on Champion US (successor 201319). BLUETTI PV350 and Champion 200989 prices could not be verified first-hand this run."
-    }
-  ]
+    "source": "Cummins QuietConnect spec sheet NAS-6254-EN (LP published in ft\u00b3/hr; gal/hr using the spec sheet's own 36.39 ft\u00b3/gal factor)"
+   },
+   "kw": 20,
+   "name": "Cummins QuietConnect 20kW (RS20A)",
+   "notes": "Among the quietest standby units; strong commercial engine heritage.",
+   "slug": "cummins-quietconnect-rs20a",
+   "type": "standby",
+   "warranty_years": 5
+  },
+  {
+   "approx_price_usd": 4300,
+   "brand": "Cummins",
+   "fuel": "natural gas / liquid propane",
+   "fuel_consumption": {
+    "checked": "2026-11-05",
+    "lp_gal_hr": {
+     "full": 2.28,
+     "half": 1.4
+    },
+    "ng_cfh": {
+     "full": 228,
+     "half": 154
+    },
+    "source": "Cummins QuietConnect spec sheet NAS-6254-EN (LP published in ft\u00b3/hr; gal/hr using the spec sheet's own 36.39 ft\u00b3/gal factor)"
+   },
+   "kw": 13,
+   "name": "Cummins QuietConnect 13kW (RS13A)",
+   "notes": "Compact QuietConnect rated 65 dB(A); full 13kW on both natural gas and propane.",
+   "slug": "cummins-quietconnect-rs13a",
+   "type": "standby",
+   "warranty_years": 5
+  },
+  {
+   "approx_price_usd": 3900,
+   "brand": "Champion",
+   "fuel": "natural gas / liquid propane",
+   "fuel_consumption": {
+    "checked": "2026-11-05",
+    "lp_gal_hr": {
+     "full": 2.6,
+     "half": 1.6
+    },
+    "ng_cfh": {
+     "full": 180.1,
+     "half": 116.5
+    },
+    "source": "Champion 14 kW aXis fact sheet (model 100515)"
+   },
+   "kw": 14,
+   "name": "Champion 14kW Standby",
+   "notes": "Budget-friendly with a notably long 10-year limited warranty.",
+   "slug": "champion-axis-14kw",
+   "type": "standby",
+   "warranty_years": 10
+  }
+ ],
+ "updated": "2026-11-12"
 }
