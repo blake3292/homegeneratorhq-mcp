@@ -29,7 +29,7 @@
    "capacity_wh": 2042.8,
    "compatible": "Jackery Explorer 2000 Plus",
    "name": "Jackery Battery Pack 2000 Plus",
-   "notes": "LiFePO4 pack for the Explorer 2000 Plus only; up to five packs per station (12kWh), or 24kWh across paired stations. Listed at $799 on Jackery US (Nov 2026 check); shown sold out there at check time.",
+   "notes": "LiFePO4 pack for the Explorer 2000 Plus only; up to five packs per station (12kWh), or 24kWh across paired stations. Listed at $799 on Jackery US (Nov 2026 check); shown sold out there at check time. 2026-11-13 check: back in stock at Jackery US at $799 (was sold out).",
    "slug": "jackery-battery-pack-2000-plus",
    "type": "expansion battery",
    "weight_lb": 41.9
@@ -140,7 +140,7 @@
    "capacity_wh": 6144,
    "expandable": true,
    "name": "EcoFlow DELTA Pro Ultra",
-   "notes": "Whole-home capable with Smart Home Panel; stackable to 90kWh.",
+   "notes": "Whole-home capable with Smart Home Panel; stackable to 90kWh. 2026-11-13 check: base unit sold out at EcoFlow US (bundle variants $4,799-$8,599); price $4,199 unchanged.",
    "output_w": 7200,
    "slug": "ecoflow-delta-pro-ultra",
    "type": "power station"
@@ -162,7 +162,7 @@
    "capacity_wh": 2048,
    "expandable": true,
    "name": "EcoFlow DELTA 2 Max",
-   "notes": "Mid-size essentials backup; LFP battery. 2026-11-12 check: base unit $1,029 in stock at EcoFlow US; $1,049 now matches a members-only bundle variant (unavailable) \u2014 price left at $1,049 (within 2%).",
+   "notes": "Mid-size essentials backup; LFP battery. 2026-11-12 check: base unit $1,029 in stock at EcoFlow US; $1,049 now matches a members-only bundle variant (unavailable) — price left at $1,049 (within 2%).",
    "output_w": 2400,
    "slug": "ecoflow-delta-2-max",
    "type": "power station"
@@ -213,12 +213,12 @@
    "type": "power station"
   },
   {
-   "approx_price_usd": 509,
+   "approx_price_usd": 589,
    "brand": "Jackery",
    "capacity_wh": 1070,
    "expandable": false,
    "name": "Jackery Explorer 1000 v2",
-   "notes": "Light essentials and camping; fast AC charging. Sold out on Jackery US at Nov 2026 check (Dune White $509, Black $559).",
+   "notes": "Light essentials and camping; fast AC charging. Sold out on Jackery US at Nov 2026 check (Dune White $509, Black $559). 2026-11-13 check: Dune White $589 at Jackery US (was $509); Black $559; all variants sold out.",
    "output_w": 1500,
    "type": "power station"
   },
@@ -305,13 +305,13 @@
    },
    "kw": 26,
    "name": "Generac Guardian 26kW",
-   "notes": "Largest air-cooled Guardian; 22.5kW on natural gas; Wi-Fi monitoring standard. 2026-11-12 check: Norwall lists $6,849 in stock (price left at $6,900, within 2%); Norwall's og:availability meta reads 'oos' \u2014 stale tag, watch.",
+   "notes": "Largest air-cooled Guardian; 22.5kW on natural gas; Wi-Fi monitoring standard. 2026-11-12 check: Norwall lists $6,849 in stock (price left at $6,900, within 2%); Norwall's og:availability meta reads 'oos' — stale tag, watch.",
    "slug": "generac-guardian-26kw",
    "type": "standby",
    "warranty_years": 5
   },
   {
-   "approx_price_usd": 6600,
+   "approx_price_usd": 6429,
    "brand": "Generac",
    "fuel": "natural gas / liquid propane",
    "fuel_consumption": {
@@ -328,7 +328,7 @@
    },
    "kw": 24,
    "name": "Generac Guardian 24kW",
-   "notes": "Best-selling whole-home standby in the US; large dealer network; Wi-Fi monitoring standard.",
+   "notes": "Best-selling whole-home standby in the US; large dealer network; Wi-Fi monitoring standard. 2026-11-13 check: Norwall lists $6,429 but marks the 7209 Discontinued (out of stock); successors 7210/7326 exist — successor-model decision pending.",
    "slug": "generac-guardian-24kw",
    "type": "standby",
    "warranty_years": 5
@@ -416,7 +416,7 @@
      "full": 290,
      "half": 180
     },
-    "source": "Kohler 26RCA spec sheet G4-315 (LP published in ft\u00b3/hr; gal/hr using the sheet's own 36.39 ft\u00b3/gal factor)"
+    "source": "Kohler 26RCA spec sheet G4-315 (LP published in ft³/hr; gal/hr using the sheet's own 36.39 ft³/gal factor)"
    },
    "kw": 26,
    "name": "Kohler 26kW (26RCA)",
@@ -439,7 +439,7 @@
      "full": 281,
      "half": 161
     },
-    "source": "Kohler 20RCA spec sheet G4-272 (LP published in ft\u00b3/hr; gal/hr using the sheet's own 36.39 ft\u00b3/gal factor)"
+    "source": "Kohler 20RCA spec sheet G4-272 (LP published in ft³/hr; gal/hr using the sheet's own 36.39 ft³/gal factor)"
    },
    "kw": 20,
    "name": "Kohler 20kW (20RCA)",
@@ -462,7 +462,7 @@
      "full": 193,
      "half": 124
     },
-    "source": "Kohler 14RCA spec sheet G4-270 (LP published in ft\u00b3/hr; gal/hr using the sheet's own 36.39 ft\u00b3/gal factor)"
+    "source": "Kohler 14RCA spec sheet G4-270 (LP published in ft³/hr; gal/hr using the sheet's own 36.39 ft³/gal factor)"
    },
    "kw": 14,
    "name": "Kohler 14kW (14RCA)",
@@ -485,11 +485,11 @@
      "full": 268,
      "half": 172
     },
-    "source": "Cummins QuietConnect spec sheet NAS-6254-EN (LP published in ft\u00b3/hr; gal/hr using the spec sheet's own 36.39 ft\u00b3/gal factor)"
+    "source": "Cummins QuietConnect spec sheet NAS-6254-EN (LP published in ft³/hr; gal/hr using the spec sheet's own 36.39 ft³/gal factor)"
    },
    "kw": 20,
    "name": "Cummins QuietConnect 20kW (RS20A)",
-   "notes": "Among the quietest standby units; strong commercial engine heritage.",
+   "notes": "Among the quietest standby units; strong commercial engine heritage. 2026-11-13 check: Norwall $5,747.50 in stock (within 2% of $5,800).",
    "slug": "cummins-quietconnect-rs20a",
    "type": "standby",
    "warranty_years": 5
@@ -508,7 +508,7 @@
      "full": 228,
      "half": 154
     },
-    "source": "Cummins QuietConnect spec sheet NAS-6254-EN (LP published in ft\u00b3/hr; gal/hr using the spec sheet's own 36.39 ft\u00b3/gal factor)"
+    "source": "Cummins QuietConnect spec sheet NAS-6254-EN (LP published in ft³/hr; gal/hr using the spec sheet's own 36.39 ft³/gal factor)"
    },
    "kw": 13,
    "name": "Cummins QuietConnect 13kW (RS13A)",
@@ -541,5 +541,5 @@
    "warranty_years": 10
   }
  ],
- "updated": "2026-11-12"
+ "updated": "2026-11-13"
 }
