@@ -43,7 +43,7 @@
  },
  "portable_generators": [
   {
-   "approx_price_usd": 1150,
+   "approx_price_usd": 1199,
    "brand": "Honda",
    "electric_start": false,
    "fuel": "gasoline",
@@ -80,7 +80,7 @@
    "inverter": true,
    "name": "Westinghouse iGen4500",
    "noise_dba": "52",
-   "notes": "Quietest in its size class; remote/electric/recoil start, RV TT-30R outlet, up to 18 hrs on 3.4 gal at quarter load.",
+   "notes": "Quietest in its size class; remote/electric/recoil start, RV TT-30R outlet, up to 18 hrs on 3.4 gal at quarter load. Nov 2026 check: delisted at Westinghouse's own store; superseded by the iGen5000 ($1,099 list). Norwall lists $1,029 out of stock. $899 kept as last price.",
    "running_watts": 3700,
    "slug": "westinghouse-igen4500",
    "starting_watts": 4500,
@@ -103,7 +103,7 @@
    "weight_lb": 92.2
   },
   {
-   "approx_price_usd": 800,
+   "approx_price_usd": 1089.99,
    "brand": "Firman",
    "electric_start": true,
    "fuel": "gasoline",
@@ -264,7 +264,7 @@
    "weight_lb": 20.9
   },
   {
-   "approx_price_usd": 379,
+   "approx_price_usd": 429,
    "brand": "Jackery",
    "name": "Jackery SolarSaga 200W Solar Panel",
    "notes": "Folding panel with Jackery DC8020 connector for Explorer stations; IP68; USB-A/USB-C ports on the panel itself.",
@@ -311,24 +311,24 @@
    "warranty_years": 5
   },
   {
-   "approx_price_usd": 6429,
+   "approx_price_usd": 7639,
    "brand": "Generac",
    "fuel": "natural gas / liquid propane",
    "fuel_consumption": {
-    "checked": "2026-11-05",
+    "checked": "2026-11-13",
     "lp_gal_hr": {
-     "full": 3.9,
-     "half": 2.53
+     "full": 3.71,
+     "half": 2.45
     },
     "ng_cfh": {
-     "full": 306,
-     "half": 203
+     "full": 291,
+     "half": 197
     },
-    "source": "Generac Guardian 20/22/24 kW spec sheet (model G007209)"
+    "source": "Generac Next Gen 24kW spec sheet (model 7326)"
    },
    "kw": 24,
    "name": "Generac Guardian 24kW",
-   "notes": "Best-selling whole-home standby in the US; large dealer network; Wi-Fi monitoring standard. 2026-11-13 check: Norwall lists $6,429 but marks the 7209 Discontinued (out of stock); successors 7210/7326 exist — successor-model decision pending.",
+   "notes": "Best-selling whole-home standby in the US; large dealer network. Now the Next Gen model 7326: 24kW LP / 22.5kW NG, 200-amp transfer switch with whole-home surge protection included, cellular + Wi-Fi monitoring. Replaced the discontinued 7209 on 2026-11-13; price at Norwall.",
    "slug": "generac-guardian-24kw",
    "type": "standby",
    "warranty_years": 5
@@ -426,7 +426,7 @@
    "warranty_years": 5
   },
   {
-   "approx_price_usd": 6000,
+   "approx_price_usd": 5699,
    "brand": "Kohler",
    "fuel": "natural gas / liquid propane",
    "fuel_consumption": {
@@ -541,5 +541,5 @@
    "warranty_years": 10
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-14"
 }
