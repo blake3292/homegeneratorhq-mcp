@@ -13,7 +13,7 @@
    "weight_lb": 84
   },
   {
-   "approx_price_usd": 1100,
+   "approx_price_usd": 1099,
    "brand": "BLUETTI",
    "capacity_wh": 2764.8,
    "compatible": "BLUETTI Apex 300, AC300, AC500, AC200L, AC200MAX",
@@ -157,12 +157,12 @@
    "type": "power station"
   },
   {
-   "approx_price_usd": 1049,
+   "approx_price_usd": 1029,
    "brand": "EcoFlow",
    "capacity_wh": 2048,
    "expandable": true,
    "name": "EcoFlow DELTA 2 Max",
-   "notes": "Mid-size essentials backup; LFP battery. 2026-11-12 check: base unit $1,029 in stock at EcoFlow US; $1,049 now matches a members-only bundle variant (unavailable) — price left at $1,049 (within 2%).",
+   "notes": "Mid-size essentials backup; LFP battery. 2026-11-15 check: base unit $1,029 in stock at EcoFlow US (compare-at $1,299); $1,049 was a members-only bundle variant.",
    "output_w": 2400,
    "slug": "ecoflow-delta-2-max",
    "type": "power station"
@@ -178,7 +178,7 @@
    "type": "power station"
   },
   {
-   "approx_price_usd": 1500,
+   "approx_price_usd": 1499,
    "brand": "BLUETTI",
    "capacity_wh": 2764.8,
    "expandable": true,
@@ -213,7 +213,7 @@
    "type": "power station"
   },
   {
-   "approx_price_usd": 589,
+   "approx_price_usd": 559,
    "brand": "Jackery",
    "capacity_wh": 1070,
    "expandable": false,
@@ -541,5 +541,5 @@
    "warranty_years": 10
   }
  ],
- "updated": "2026-11-14"
+ "updated": "2026-11-15"
 }
