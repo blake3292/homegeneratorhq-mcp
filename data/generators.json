@@ -380,29 +380,6 @@
    "warranty_years": 5
   },
   {
-   "approx_price_usd": 4500,
-   "brand": "Generac",
-   "fuel": "natural gas / liquid propane",
-   "fuel_consumption": {
-    "checked": "2026-11-05",
-    "lp_gal_hr": {
-     "full": 3.07,
-     "half": 1.81
-    },
-    "ng_cfh": {
-     "full": 256,
-     "half": 195
-    },
-    "source": "Generac Guardian 10/14/18 kW spec sheet (model G007223)"
-   },
-   "kw": 14,
-   "name": "Generac Guardian 14kW",
-   "notes": "Essentials coverage for smaller homes or managed loads. Nov 2026 check: Norwall lists the 7223 as Discontinued (og:availability oos); successor is the Next Gen 14kW (7258), $4,799 at Norwall. Price $4,500 kept as last price.",
-   "slug": "generac-guardian-14kw",
-   "type": "standby",
-   "warranty_years": 5
-  },
-  {
    "approx_price_usd": 7500,
    "brand": "Kohler",
    "fuel": "natural gas / liquid propane",
