@@ -397,7 +397,7 @@
    },
    "kw": 14,
    "name": "Generac Guardian 14kW",
-   "notes": "Essentials coverage for smaller homes or managed loads.",
+   "notes": "Essentials coverage for smaller homes or managed loads. Nov 2026 check: Norwall lists the 7223 as Discontinued (og:availability oos); successor is the Next Gen 14kW (7258), $4,799 at Norwall. Price $4,500 kept as last price.",
    "slug": "generac-guardian-14kw",
    "type": "standby",
    "warranty_years": 5
@@ -541,5 +541,5 @@
    "warranty_years": 10
   }
  ],
- "updated": "2026-11-15"
+ "updated": "2026-11-16"
 }
