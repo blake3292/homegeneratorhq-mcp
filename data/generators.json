@@ -88,14 +88,14 @@
    "weight_lb": 98
   },
   {
-   "approx_price_usd": 999,
+   "approx_price_usd": 786,
    "brand": "Champion",
    "electric_start": true,
    "fuel": "gasoline / propane",
    "inverter": true,
    "name": "Champion 4500W Dual Fuel Inverter (200989)",
    "noise_dba": "61",
-   "notes": "Dual fuel: 3,500 running watts on gasoline, 3,150 on propane; up to 14 hrs on gas, 21 hrs on propane; CO Shield shutoff. Champion US no longer lists this model (Nov 2026 check); successor 201319 listed at $1,022.99.",
+   "notes": "Dual fuel: 3,500 running watts on gasoline, 3,150 on propane; up to 14 hrs on gas, 21 hrs on propane; CO Shield shutoff. Champion US no longer lists this model (Nov 2026 check); successor 201319 listed at $1,022.99. Still sold at Norwall $786 (checked 2026-11-17).",
    "running_watts": 3500,
    "slug": "champion-4500-dual-fuel-inverter",
    "starting_watts": 4500,
@@ -518,5 +518,5 @@
    "warranty_years": 10
   }
  ],
- "updated": "2026-11-16"
+ "updated": "2026-11-17"
 }
