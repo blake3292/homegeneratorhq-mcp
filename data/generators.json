@@ -7,7 +7,7 @@
    "capacity_wh": 3600,
    "compatible": "EcoFlow DELTA Pro",
    "name": "EcoFlow DELTA Pro Smart Extra Battery",
-   "notes": "LFP add-on battery for the original DELTA Pro only; one pack doubles it to 7.2kWh, two reach 10.8kWh; 3,500 cycles to 80%. EcoFlow US collection page states this battery will not be restocked (Nov 2026 check).",
+   "notes": "LFP add-on battery for the original DELTA Pro only; one pack doubles it to 7.2kWh, two reach 10.8kWh; 3,500 cycles to 80%. EcoFlow US collection page states this battery will not be restocked (Nov 2026 check). 2026-11-18 re-check: standalone product page and product JSON both 404 at EcoFlow US; still sold only inside DELTA Pro bundles.",
    "slug": "ecoflow-delta-pro-extra-battery",
    "type": "expansion battery",
    "weight_lb": 84
@@ -518,5 +518,5 @@
    "warranty_years": 10
   }
  ],
- "updated": "2026-11-17"
+ "updated": "2026-11-18"
 }
