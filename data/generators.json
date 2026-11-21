@@ -85,7 +85,7 @@
    "inverter": true,
    "name": "Westinghouse iGen4500",
    "noise_dba": "52",
-   "notes": "Quietest in its size class; remote/electric/recoil start, RV TT-30R outlet, up to 18 hrs on 3.4 gal at quarter load. Nov 2026 check: delisted at Westinghouse's own store; superseded by the iGen5000 ($1,099 list). Norwall lists $1,029 out of stock. $899 kept as last price. Re-checked 2026-11-18: still delisted at the maker, Norwall still $1,029 out of stock.",
+   "notes": "Quietest in its size class; remote/electric/recoil start, RV TT-30R outlet, up to 18 hrs on 3.4 gal at quarter load. Nov 2026 check: delisted at Westinghouse's own store; superseded by the iGen5000c ($1,199 MSRP). Norwall lists $1,029 out of stock. $899 kept as last price. Re-checked 2026-11-18: still delisted at the maker, Norwall still $1,029 out of stock. Re-checked 2026-11-21: still delisted at the maker; Norwall still $1,029 out of stock.",
    "running_watts": 3700,
    "slug": "westinghouse-igen4500",
    "starting_watts": 4500,
@@ -179,22 +179,22 @@
    "image": "/images/products/ecoflow-delta-2-max.webp"
   },
   {
-   "approx_price_usd": 1600,
+   "approx_price_usd": 1699,
    "brand": "BLUETTI",
    "capacity_wh": 2765,
    "expandable": true,
    "name": "BLUETTI AC300 + B300K",
-   "notes": "Modular system; good value per watt-hour. AC300 kits no longer listed on BLUETTI US at Nov 2026 check; Apex 300 is the current replacement line.",
+   "notes": "Modular system; good value per watt-hour. BLUETTI's own page labels every B300K kit variant 'Discontinued'; kit listed $1,699 (was $2,499). Apex 300 is the current replacement line. Re-checked 2026-11-21: still Discontinued, $1,699.",
    "output_w": 3000,
    "type": "power station"
   },
   {
-   "approx_price_usd": 1499,
+   "approx_price_usd": 1699,
    "brand": "BLUETTI",
    "capacity_wh": 2764.8,
    "expandable": true,
    "name": "BLUETTI Apex 300",
-   "notes": "Modular home-backup station; expandable up to 58kWh with B300K batteries; 120/240V output.",
+   "notes": "Modular home-backup station; expandable up to 58kWh with B300K batteries; 120/240V output. 2026-11-21 check: $1,699 at BLUETTI US, out of stock (Black Friday sale price expired).",
    "output_w": 3840,
    "slug": "bluetti-apex-300",
    "type": "power station",
@@ -325,7 +325,7 @@
    },
    "kw": 26,
    "name": "Generac Guardian 26kW",
-   "notes": "Largest air-cooled Guardian; 22.5kW on natural gas; Wi-Fi monitoring standard. 2026-11-12 check: Norwall lists $6,849 in stock (price left at $6,900, within 2%); Norwall's og:availability meta reads 'oos' — stale tag, watch.",
+   "notes": "Largest air-cooled Guardian; 22.5kW on natural gas; Wi-Fi monitoring standard. 2026-11-12 check: Norwall lists $6,849 in stock (price left at $6,900, within 2%); Norwall's og:availability meta reads 'oos' \u2014 stale tag, watch.",
    "slug": "generac-guardian-26kw",
    "type": "standby",
    "warranty_years": 5,
@@ -417,7 +417,7 @@
      "full": 290,
      "half": 180
     },
-    "source": "Kohler 26RCA spec sheet G4-315 (LP published in ft³/hr; gal/hr using the sheet's own 36.39 ft³/gal factor)"
+    "source": "Kohler 26RCA spec sheet G4-315 (LP published in ft\u00b3/hr; gal/hr using the sheet's own 36.39 ft\u00b3/gal factor)"
    },
    "kw": 26,
    "name": "Kohler 26kW (26RCA)",
@@ -441,7 +441,7 @@
      "full": 281,
      "half": 161
     },
-    "source": "Kohler 20RCA spec sheet G4-272 (LP published in ft³/hr; gal/hr using the sheet's own 36.39 ft³/gal factor)"
+    "source": "Kohler 20RCA spec sheet G4-272 (LP published in ft\u00b3/hr; gal/hr using the sheet's own 36.39 ft\u00b3/gal factor)"
    },
    "kw": 20,
    "name": "Kohler 20kW (20RCA)",
@@ -465,7 +465,7 @@
      "full": 193,
      "half": 124
     },
-    "source": "Kohler 14RCA spec sheet G4-270 (LP published in ft³/hr; gal/hr using the sheet's own 36.39 ft³/gal factor)"
+    "source": "Kohler 14RCA spec sheet G4-270 (LP published in ft\u00b3/hr; gal/hr using the sheet's own 36.39 ft\u00b3/gal factor)"
    },
    "kw": 14,
    "name": "Kohler 14kW (14RCA)",
@@ -489,7 +489,7 @@
      "full": 268,
      "half": 172
     },
-    "source": "Cummins QuietConnect spec sheet NAS-6254-EN (LP published in ft³/hr; gal/hr using the spec sheet's own 36.39 ft³/gal factor)"
+    "source": "Cummins QuietConnect spec sheet NAS-6254-EN (LP published in ft\u00b3/hr; gal/hr using the spec sheet's own 36.39 ft\u00b3/gal factor)"
    },
    "kw": 20,
    "name": "Cummins QuietConnect 20kW (RS20A)",
@@ -548,5 +548,5 @@
    "image": "/images/products/champion-axis-14kw.webp"
   }
  ],
- "updated": "2026-11-19"
+ "updated": "2026-11-21"
 }
