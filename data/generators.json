@@ -69,7 +69,7 @@
    "inverter": true,
    "name": "WEN 56235i",
    "noise_dba": "51 at quarter load",
-   "notes": "Budget Honda alternative; fuel shutoff drains the carb for storage; 2-year warranty; about 10.5 hrs at quarter load. Price re-verified 2026-11-12: $509.99 at WEN's own store (wenproducts.com).",
+   "notes": "Budget Honda alternative; fuel shutoff drains the carb for storage; 2-year warranty; about 10.5 hrs at quarter load. Price re-verified 2026-11-22: $509.99 at WEN's own store (wenproducts.com).",
    "running_watts": 1900,
    "slug": "wen-56235i",
    "starting_watts": 2350,
@@ -172,7 +172,7 @@
    "capacity_wh": 2048,
    "expandable": true,
    "name": "EcoFlow DELTA 2 Max",
-   "notes": "Mid-size essentials backup; LFP battery. 2026-11-15 check: base unit $1,029 in stock at EcoFlow US (compare-at $1,299); $1,049 was a members-only bundle variant.",
+   "notes": "Mid-size essentials backup; LFP battery. 2026-11-22 check: base unit $1,029 in stock at EcoFlow US (compare-at $1,299); $1,049 members-only bundle variant out of stock.",
    "output_w": 2400,
    "slug": "ecoflow-delta-2-max",
    "type": "power station",
@@ -261,7 +261,7 @@
    "approx_price_usd": 499,
    "brand": "EcoFlow",
    "name": "EcoFlow 400W Rigid Solar Panel",
-   "notes": "Rigid monocrystalline panel, 23% efficiency, IP68; sold per panel, usually in 2-packs (~$999). For permanent mounts feeding EcoFlow stations or a home system.",
+   "notes": "Rigid monocrystalline panel, 23% efficiency, IP68; sold per panel, usually in 2-packs (~$999). For permanent mounts feeding EcoFlow stations or a home system. 2026-11-22: single panel no longer listed at EcoFlow US \u2014 only panel + mounting-feet bundles remain, all out of stock; $499 is the last verified single-panel price.",
    "panel_type": "rigid",
    "slug": "ecoflow-400w-rigid-panel",
    "type": "solar panel",
@@ -548,5 +548,5 @@
    "image": "/images/products/champion-axis-14kw.webp"
   }
  ],
- "updated": "2026-11-21"
+ "updated": "2026-11-22"
 }
