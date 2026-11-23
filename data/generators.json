@@ -54,7 +54,7 @@
    "inverter": true,
    "name": "Honda EU2200i",
    "noise_dba": "48-57",
-   "notes": "The benchmark small inverter: GXR120 commercial engine, recoil start only, parallel-capable; 3.2-8.1 hrs on a 0.95-gal tank.",
+   "notes": "The benchmark small inverter: GXR120 121cc commercial engine, recoil start only, parallel-capable (two units 4,400 W with optional cable); 3.2 hrs at rated load / 8.1 hrs at quarter load on a 0.95-gal tank; 48 dB(A) at quarter load, 57 at rated load; CO-MINDER auto-shutoff; My Generator app + Bluetooth; Eco Throttle; fuel shutoff; no DC output; 20.0 x 11.4 x 16.7 in, 47.4 lb dry; 3-year residential warranty (12-month commercial). MSRP re-verified 2026-11-22 on Honda's own page: $1,199. The model on Honda's page (EU2200ITAN) is not for sale in California.",
    "running_watts": 1800,
    "slug": "honda-eu2200i",
    "starting_watts": 2200,
@@ -69,7 +69,7 @@
    "inverter": true,
    "name": "WEN 56235i",
    "noise_dba": "51 at quarter load",
-   "notes": "Budget Honda alternative; fuel shutoff drains the carb for storage; 2-year warranty; about 10.5 hrs at quarter load. Price re-verified 2026-11-22: $509.99 at WEN's own store (wenproducts.com).",
+   "notes": "Budget Honda alternative; 79cc engine; fuel shutoff drains the carb for storage; 2-year warranty; about 10.5 hrs at quarter load (over 5.7 hrs at half load); 17.3 x 11.5 x 17.7 in, 39 lb; 2x 120V 5-20R, 12V DC 8.3A, 2x 5V USB; fuel gauge; eco-mode; parallel kit sold separately; THD under 1.2%; no CO sensor - the newer 56235iX variant adds CO Watchdog ($604.99 at Northern Tool). Price re-verified 2026-11-22: $509.99 at WEN's own store (wenproducts.com), in stock.",
    "running_watts": 1900,
    "slug": "wen-56235i",
    "starting_watts": 2350,
@@ -85,7 +85,7 @@
    "inverter": true,
    "name": "Westinghouse iGen4500",
    "noise_dba": "52",
-   "notes": "Quietest in its size class; remote/electric/recoil start, RV TT-30R outlet, up to 18 hrs on 3.4 gal at quarter load. Nov 2026 check: delisted at Westinghouse's own store; superseded by the iGen5000c ($1,199 MSRP). Norwall lists $1,029 out of stock. $899 kept as last price. Re-checked 2026-11-18: still delisted at the maker, Norwall still $1,029 out of stock. Re-checked 2026-11-21: still delisted at the maker; Norwall still $1,029 out of stock.",
+   "notes": "Quietest in its size class; remote/electric/recoil start, RV TT-30R outlet, up to 18 hrs on 3.4 gal at quarter load. Nov 2026 check: delisted at Westinghouse's own store; superseded by the iGen5000c ($1,199 MSRP). Norwall lists $1,029 out of stock. $899 kept as last price. Re-checked 2026-11-18: still delisted at the maker, Norwall still $1,029 out of stock. Re-checked 2026-11-21: still delisted at the maker; Norwall still $1,029 out of stock. Re-checked 2026-11-23: still delisted at the maker; Norwall still $1,029 out of stock.",
    "running_watts": 3700,
    "slug": "westinghouse-igen4500",
    "starting_watts": 4500,
@@ -184,7 +184,7 @@
    "capacity_wh": 2765,
    "expandable": true,
    "name": "BLUETTI AC300 + B300K",
-   "notes": "Modular system; good value per watt-hour. BLUETTI's own page labels every B300K kit variant 'Discontinued'; kit listed $1,699 (was $2,499). Apex 300 is the current replacement line. Re-checked 2026-11-21: still Discontinued, $1,699.",
+   "notes": "Modular system; good value per watt-hour. BLUETTI's own page labels every B300K kit variant 'Discontinued'; kit listed $1,699 (was $2,499). Apex 300 is the current replacement line. Re-checked 2026-11-21: still Discontinued, $1,699. Re-checked 2026-11-23: still Discontinued, $1,699.",
    "output_w": 3000,
    "type": "power station"
   },
@@ -258,18 +258,6 @@
  },
  "solar_panels": [
   {
-   "approx_price_usd": 499,
-   "brand": "EcoFlow",
-   "name": "EcoFlow 400W Rigid Solar Panel",
-   "notes": "Rigid monocrystalline panel, 23% efficiency, IP68; sold per panel, usually in 2-packs (~$999). For permanent mounts feeding EcoFlow stations or a home system. 2026-11-22: single panel no longer listed at EcoFlow US \u2014 only panel + mounting-feet bundles remain, all out of stock; $499 is the last verified single-panel price.",
-   "panel_type": "rigid",
-   "slug": "ecoflow-400w-rigid-panel",
-   "type": "solar panel",
-   "watts": 400,
-   "weight_lb": 48.1,
-   "image": "/images/products/ecoflow-400w-rigid-solar-panel.webp"
-  },
-  {
    "approx_price_usd": 449,
    "brand": "EcoFlow",
    "name": "EcoFlow 220W Bifacial Portable Solar Panel",
@@ -285,7 +273,7 @@
    "approx_price_usd": 429,
    "brand": "Jackery",
    "name": "Jackery SolarSaga 200W Solar Panel",
-   "notes": "Folding panel with Jackery DC8020 connector for Explorer stations; IP68; USB-A/USB-C ports on the panel itself.",
+   "notes": "Folding panel with Jackery DC8020 connector for Explorer stations; IP68; USB-A/USB-C ports on the panel itself. Price re-verified 2026-11-23: $429 at jackery.com, in stock.",
    "panel_type": "folding",
    "slug": "jackery-solarsaga-200",
    "type": "solar panel",
@@ -445,7 +433,7 @@
    },
    "kw": 20,
    "name": "Kohler 20kW (20RCA)",
-   "notes": "Known for fast (10-second) transfer and corrosion-resistant enclosure.",
+   "notes": "20 kW on LP / 18 kW on natural gas (75 A NG / 83 A LP); 41 kVA peak motor-starting (35% dip); CH1000 999cc V-twin; 66 dB(A) weekly exercise and 70 dB(A) full-speed per spec sheet G4-272 (10/24h revision - the older revision printed 64/69); 10-second response; RDC2 controller with OnCue Plus remote monitoring; 47 x 26.2 x 32.2 in, 600 lb; ATS sold separately (the 20RCAL bundles a 200A RXT switch); Group 51 500 CCA battery not included; 5-yr/2000-hr premium warranty covering parts, labor and travel. Price re-verified 2026-11-23: $5,699 at Norwall, in stock (Kohler MSRP $6,016).",
    "slug": "kohler-20rca",
    "type": "standby",
    "warranty_years": 5,
@@ -493,7 +481,7 @@
    },
    "kw": 20,
    "name": "Cummins QuietConnect 20kW (RS20A)",
-   "notes": "Among the quietest standby units; strong commercial engine heritage. 2026-11-13 check: Norwall $5,747.50 in stock (within 2% of $5,800).",
+   "notes": "20 kW on LP / 18 kW on natural gas (75 A NG / 83.3 A LP); 40 kVA motor-starting (30% dip); QSJ999G 999cc V-twin; 65 dB(A) at 23 ft at normal load; crank-only exercise mode; Intelligent Load Management for up to 4 loads (kit sold separately); 34.1 x 36 x 27.3 in, 531 lb; ATS sold separately (the RS20AC bundles a 200A service-entrance ATS); Group 51R 450 CCA battery not included; Cloud Connect remote monitoring; 5-yr/2000-hr limited warranty (travel + labor 2 yrs, parts 5 yrs). Price re-verified 2026-11-22: $5,747.50 at Norwall, in stock.",
    "slug": "cummins-quietconnect-rs20a",
    "type": "standby",
    "warranty_years": 5,
@@ -548,5 +536,5 @@
    "image": "/images/products/champion-axis-14kw.webp"
   }
  ],
- "updated": "2026-11-22"
+ "updated": "2026-11-23"
 }
