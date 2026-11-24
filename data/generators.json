@@ -100,7 +100,7 @@
    "inverter": true,
    "name": "Champion 4500W Dual Fuel Inverter (201319)",
    "noise_dba": "61",
-   "notes": "Successor to the 200989, which Champion delisted in Nov 2026. Dual fuel: 3,500 running watts on gasoline, 3,150 on propane; up to 14 hrs on gas, 21 hrs on propane at quarter load; CO Shield shutoff; parallel-capable (ParaLINK); TT-30R RV outlet. Specs verified on Champion's product page; heavier than the model it replaces (99.2 lb vs 92.2 lb). $999 at Norwall, $1,022.99 at Northern Tool (checked 2026-11-17).",
+   "notes": "Successor to the 200989, which Champion delisted in Nov 2026. Dual fuel: 3,500 running watts on gasoline, 3,150 on propane; up to 14 hrs on gas, 21 hrs on propane at quarter load; CO Shield shutoff; parallel-capable (ParaLINK); TT-30R RV outlet. Specs verified on Champion's product page; heavier than the model it replaces (99.2 lb vs 92.2 lb). $999 at Norwall, $1,022.99 at Northern Tool (checked 2026-11-24).",
    "running_watts": 3500,
    "slug": "champion-4500-dual-fuel-inverter",
    "starting_watts": 4500,
@@ -194,7 +194,7 @@
    "capacity_wh": 2764.8,
    "expandable": true,
    "name": "BLUETTI Apex 300",
-   "notes": "Modular home-backup station; expandable up to 58kWh with B300K batteries; 120/240V output. 2026-11-21 check: $1,699 at BLUETTI US, out of stock (Black Friday sale price expired).",
+   "notes": "Modular home-backup station; expandable up to 58kWh with B300K batteries; 120/240V output. 2026-11-24 check: $1,699 at BLUETTI US, still out of stock.",
    "output_w": 3840,
    "slug": "bluetti-apex-300",
    "type": "power station",
@@ -285,7 +285,7 @@
    "approx_price_usd": 649,
    "brand": "BLUETTI",
    "name": "BLUETTI PV350 Solar Panel",
-   "notes": "Big folding panel for fast charging of larger BLUETTI stations; MC4 output also works with most other brands' MPPT inputs.",
+   "notes": "Big folding panel for fast charging of larger BLUETTI stations; MC4 output also works with most other brands' MPPT inputs. 2026-11-24 check: $649 at BLUETTI US, PreOrder; site says ships from Dec 25.",
    "panel_type": "folding",
    "slug": "bluetti-pv350",
    "type": "solar panel",
@@ -457,7 +457,7 @@
    },
    "kw": 14,
    "name": "Kohler 14kW (14RCA)",
-   "notes": "Smaller-footprint Kohler with the same fast transfer. 14 kW on LP / 12 kW on natural gas; 33 kVA peak motor-starting; 63 dB(A) weekly exercise and 69 dB(A) full-speed per spec sheet G4-270 (Kohler's product page prints 67 dB(A) for full-speed); 10-second response; CH740 725cc V-twin; 47 x 26.2 x 32.2 in, 440 lb; ATS sold separately (the 14RCAL bundles a transfer switch); OnCue Plus monitoring included; 5-yr/2000-hr premium warranty covering parts, labor and travel. Price re-verified 2026-11-18: $4,899 at Norwall, in stock (Kohler lists $5,098 MSRP).",
+   "notes": "Smaller-footprint Kohler with the same fast transfer. 14 kW on LP / 12 kW on natural gas; 33 kVA peak motor-starting; 63 dB(A) weekly exercise and 69 dB(A) full-speed per spec sheet G4-270 (Kohler's product page prints 67 dB(A) for full-speed); 10-second response; CH740 725cc V-twin; 47 x 26.2 x 32.2 in, 440 lb; ATS sold separately (the 14RCAL bundles a transfer switch); OnCue Plus monitoring included; 5-yr/2000-hr premium warranty covering parts, labor and travel. Price re-verified 2026-11-24: $4,899 at Norwall, in stock (Kohler lists $5,098 MSRP).",
    "slug": "kohler-14rca",
    "type": "standby",
    "warranty_years": 5,
@@ -536,5 +536,5 @@
    "image": "/images/products/champion-axis-14kw.webp"
   }
  ],
- "updated": "2026-11-23"
+ "updated": "2026-11-24"
 }
