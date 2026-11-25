@@ -7,7 +7,7 @@
    "capacity_wh": 3600,
    "compatible": "EcoFlow DELTA Pro",
    "name": "EcoFlow DELTA Pro Smart Extra Battery",
-   "notes": "LFP add-on battery for the original DELTA Pro only; one pack doubles it to 7.2kWh, two reach 10.8kWh; 3,500 cycles to 80%. EcoFlow US collection page states this battery will not be restocked (Nov 2026 check). 2026-11-18 re-check: standalone product page and product JSON both 404 at EcoFlow US; still sold only inside DELTA Pro bundles.",
+   "notes": "LFP add-on battery for the original DELTA Pro only; one pack doubles it to 7.2kWh, two reach 10.8kWh; 3,500 cycles to 80%. EcoFlow US collection page states this battery will not be restocked (Nov 2026 check). 2026-11-18 re-check: standalone product page and product JSON both 404 at EcoFlow US; still sold only inside DELTA Pro bundles. 2026-11-25 re-check: $1,199 (App Only) per price tracker; still bundle/app-only, not restocked standalone.",
    "slug": "ecoflow-delta-pro-extra-battery",
    "bundle_only": true,
    "type": "expansion battery",
@@ -116,7 +116,7 @@
    "inverter": false,
    "name": "Firman P03631",
    "noise_dba": "67 at 25% load",
-   "notes": "Conventional open-frame 120/240V unit with remote start and 5-gal tank (14 hrs at 50% load); louder and dirtier power than inverters.",
+   "notes": "Conventional open-frame 120/240V unit with remote start and 5-gal tank (14 hrs at 50% load); louder and dirtier power than inverters. Price re-verified 2026-11-25: $1,089.99 at outboundpower.com, in stock.",
    "running_watts": 3650,
    "slug": "firman-p03631",
    "starting_watts": 4550,
@@ -207,7 +207,7 @@
    "capacity_wh": 2073.6,
    "expandable": false,
    "name": "BLUETTI Elite 200 V2",
-   "notes": "Sealed 2kWh-class station; 3,900W Power Lifting mode for resistive loads.",
+   "notes": "Sealed 2kWh-class station; 3,900W Power Lifting mode for resistive loads. Price re-verified 2026-11-25: $899 at BLUETTI US (orders placed on/after Nov 18 ship early January).",
    "output_w": 2600,
    "slug": "bluetti-elite-200-v2",
    "type": "power station",
@@ -296,7 +296,7 @@
  ],
  "standby_generators": [
   {
-   "approx_price_usd": 6900,
+   "approx_price_usd": 6849,
    "brand": "Generac",
    "fuel": "natural gas / liquid propane",
    "fuel_consumption": {
@@ -313,7 +313,7 @@
    },
    "kw": 26,
    "name": "Generac Guardian 26kW",
-   "notes": "Largest air-cooled Guardian; 22.5kW on natural gas; Wi-Fi monitoring standard. 2026-11-12 check: Norwall lists $6,849 in stock (price left at $6,900, within 2%); Norwall's og:availability meta reads 'oos' \u2014 stale tag, watch.",
+   "notes": "Largest air-cooled Guardian; 26 kW on LP / 22.5 kW on natural gas (108.3/93.8 A); 55.2 kVA / 230 LRA motor-starting; G-Force 1000 999cc V-twin, pressure-lubricated, cast-iron sleeve; 67 dB(A) at 23 ft at normal load, 57 dB(A) Quiet-Test exercise (5 min), per spec sheet G007290/G007291; 48 x 25 x 29 in, 518 lb; 110 A main breaker; Mobile Link Wi-Fi monitoring included (4G LTE module sold separately); ATS sold separately (G007291 bundles a 200A service-entrance ATS, maker $7,899 Oct 2026); Group 26R 540 CCA battery not included; 5-year limited warranty, tiered (labor years 1-2, parts only year 3, major components years 4-5). MODEL RULING 2026-11-24: 7290 is generator-only, 7291 is the same unit + 200A ATS. Generac's Next Gen 26 kW is a DIFFERENT unit \u2014 models 7327 (generator-only, ~$7,019) / 7328 (with switch), 26 kW LP / 24 kW NG, 997cc with hydraulic lifters + EFIC + built-in cellular; confirm the model number on any quote. Price re-verified 2026-11-25: $6,849 at Northern Tool, in stock; Norwall lists the same $6,849 but its og:availability meta still reads 'oos' (stale tag, flagged since 2026-11-12).",
    "slug": "generac-guardian-26kw",
    "type": "standby",
    "warranty_years": 5,
@@ -392,7 +392,7 @@
    "image": "/images/products/generac-guardian-18kw.webp"
   },
   {
-   "approx_price_usd": 7500,
+   "approx_price_usd": 7399,
    "brand": "Kohler",
    "fuel": "natural gas / liquid propane",
    "fuel_consumption": {
@@ -409,7 +409,7 @@
    },
    "kw": 26,
    "name": "Kohler 26kW (26RCA)",
-   "notes": "Largest air-cooled Kohler; 24kW on natural gas; 39 kVA motor-starting capacity.",
+   "notes": "Largest air-cooled Kohler; 26 kW on LP / 24 kW on natural gas (109/100 A); 39 kVA peak motor-starting (35% dip); CH1006 999cc V-twin with hydraulic lifters (no valve adjustments); 56 dB(A) 90-second EcoExercise and 67 dB(A) full-speed at 23 ft (lowest of eight points) per spec sheet G4-315 (10/24e); 10-second response; RDC2 controller with OnCue Plus remote monitoring; 47 x 26.0 x 32.3 in, 625 lb (26RCAL with 200A RXT SE ATS: 670 lb); ATS sold separately (26RCAL bundles a 200A RXT SE switch); Group 51 500 CCA battery not included; 5-yr/2000-hr premium warranty covering parts, labor and travel. Norwall notes Kohler changed the 26RCA main breaker from 125 A to 110 A. Price re-verified 2026-11-24: $7,399 at Norwall, in stock (Kohler MSRP $7,546; 26RCAL + 200A ATS bundle $8,349 at Norwall).",
    "slug": "kohler-26rca",
    "type": "standby",
    "warranty_years": 5,
@@ -481,7 +481,7 @@
    },
    "kw": 20,
    "name": "Cummins QuietConnect 20kW (RS20A)",
-   "notes": "20 kW on LP / 18 kW on natural gas (75 A NG / 83.3 A LP); 40 kVA motor-starting (30% dip); QSJ999G 999cc V-twin; 65 dB(A) at 23 ft at normal load; crank-only exercise mode; Intelligent Load Management for up to 4 loads (kit sold separately); 34.1 x 36 x 27.3 in, 531 lb; ATS sold separately (the RS20AC bundles a 200A service-entrance ATS); Group 51R 450 CCA battery not included; Cloud Connect remote monitoring; 5-yr/2000-hr limited warranty (travel + labor 2 yrs, parts 5 yrs). Price re-verified 2026-11-22: $5,747.50 at Norwall, in stock.",
+   "notes": "20 kW on LP / 18 kW on natural gas (75 A NG / 83.3 A LP); 40 kVA motor-starting (30% dip); QSJ999G 999cc V-twin; 65 dB(A) at 23 ft at normal load; crank-only exercise mode; Intelligent Load Management for up to 4 loads (kit sold separately); 34.1 x 36 x 27.3 in, 531 lb; ATS sold separately (the RS20AC bundles a 200A service-entrance ATS); Group 51R 450 CCA battery not included; Cloud Connect remote monitoring; 5-yr/2000-hr limited warranty (travel + labor 2 yrs, parts 5 yrs). Price re-verified 2026-11-25: $5,747.50 at Norwall, in stock.",
    "slug": "cummins-quietconnect-rs20a",
    "type": "standby",
    "warranty_years": 5,
@@ -536,5 +536,5 @@
    "image": "/images/products/champion-axis-14kw.webp"
   }
  ],
- "updated": "2026-11-24"
+ "updated": "2026-11-25"
 }
