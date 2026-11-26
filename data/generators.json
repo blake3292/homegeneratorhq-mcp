@@ -20,7 +20,7 @@
    "capacity_wh": 2764.8,
    "compatible": "BLUETTI Apex 300, AC300, AC500, AC200L, AC200MAX",
    "name": "BLUETTI B300K Expansion Battery",
-   "notes": "LiFePO4 pack with 4,000+ cycles to 80%; also has a small USB output for standalone use.",
+   "notes": "LiFePO4 pack with 4,000+ cycles to 80%; also has a small USB output for standalone use. Price re-verified 2026-11-26: $999 at BLUETTI US, in stock (orders placed after Nov 20 ship starting Jan 20).",
    "slug": "bluetti-b300k",
    "type": "expansion battery",
    "weight_lb": 65,
@@ -132,13 +132,28 @@
    "inverter": false,
    "name": "DuroMax XP13000EH",
    "noise_dba": "74",
-   "notes": "Standby-class output in a portable frame: 10,500 running watts on gasoline, 10,000 on propane; 50A outlet for a transfer switch or inlet box.",
+   "notes": "Standby-class output in a portable frame: 10,500 running watts on gasoline, 10,000 on propane; 50A outlet for a transfer switch or inlet box. Price re-verified 2026-11-26: $1,299 at Generator Factory Outlet, in stock (DuroMax's own store shows no product page).",
    "running_watts": 10500,
    "slug": "duromax-xp13000eh",
    "starting_watts": 13000,
    "type": "portable generator",
    "weight_lb": 234,
    "image": "/images/products/duromax-xp13000eh.webp"
+  },
+  {
+   "approx_price_usd": 999,
+   "brand": "Westinghouse",
+   "electric_start": true,
+   "fuel": "gasoline / propane",
+   "inverter": true,
+   "name": "Westinghouse iGen5000DFc",
+   "noise_dba": "52",
+   "notes": "Dual fuel: 3,900 running / 5,000 peak watts on gasoline, 3,500 / 4,500 on propane; 224cc OHV; <3% THD; remote + push-button + recoil start; CO sensor with auto-shutoff; TT-30R + duplex 5-20R + 2x USB; up to 18 hrs on gas / 22 hrs on propane at 25% load on a 3.4 gal tank; parallel-capable; 3-year limited warranty. Specs verified on Westinghouse's own product page 2026-11-25. Availability 2026-11-25: OUT OF STOCK at Westinghouse's own store ($1,299 MSRP), at Norwall ($1,199), and at Home Depot ($999) - no live buy route found for the DFc; the Gas vs pairing stays blocked until one appears. Variants share the same 3,900/5,000 W core: DF (no CO sensor, $1,199) / DFc (CO sensor, $1,299) / DFcv (recoil start, $1,179) / DFc EFI ($1,399), all out of stock at the maker. Noise conflict: the DFc spec table says 52 dBA ('as low as'); the EFI sibling's page lists 61 dBA - the 52 figure is used here as the DFc's own spec-table figure, and the conflict is stated on any page that compares it.",
+   "running_watts": 3900,
+   "slug": "westinghouse-igen5000dfc",
+   "starting_watts": 5000,
+   "type": "portable generator",
+   "weight_lb": 105.8
   }
  ],
  "portable_power_stations": [
@@ -207,7 +222,7 @@
    "capacity_wh": 2073.6,
    "expandable": false,
    "name": "BLUETTI Elite 200 V2",
-   "notes": "Sealed 2kWh-class station; 3,900W Power Lifting mode for resistive loads. Price re-verified 2026-11-25: $899 at BLUETTI US (orders placed on/after Nov 18 ship early January).",
+   "notes": "Sealed 2kWh-class station; 3,900W Power Lifting mode for resistive loads. Price re-verified 2026-11-26: $899 at BLUETTI US (orders placed on/after Nov 18 ship early January).",
    "output_w": 2600,
    "slug": "bluetti-elite-200-v2",
    "type": "power station",
@@ -313,7 +328,7 @@
    },
    "kw": 26,
    "name": "Generac Guardian 26kW",
-   "notes": "Largest air-cooled Guardian; 26 kW on LP / 22.5 kW on natural gas (108.3/93.8 A); 55.2 kVA / 230 LRA motor-starting; G-Force 1000 999cc V-twin, pressure-lubricated, cast-iron sleeve; 67 dB(A) at 23 ft at normal load, 57 dB(A) Quiet-Test exercise (5 min), per spec sheet G007290/G007291; 48 x 25 x 29 in, 518 lb; 110 A main breaker; Mobile Link Wi-Fi monitoring included (4G LTE module sold separately); ATS sold separately (G007291 bundles a 200A service-entrance ATS, maker $7,899 Oct 2026); Group 26R 540 CCA battery not included; 5-year limited warranty, tiered (labor years 1-2, parts only year 3, major components years 4-5). MODEL RULING 2026-11-24: 7290 is generator-only, 7291 is the same unit + 200A ATS. Generac's Next Gen 26 kW is a DIFFERENT unit \u2014 models 7327 (generator-only, ~$7,019) / 7328 (with switch), 26 kW LP / 24 kW NG, 997cc with hydraulic lifters + EFIC + built-in cellular; confirm the model number on any quote. Price re-verified 2026-11-25: $6,849 at Northern Tool, in stock; Norwall lists the same $6,849 but its og:availability meta still reads 'oos' (stale tag, flagged since 2026-11-12).",
+   "notes": "Largest air-cooled Guardian; 26 kW on LP / 22.5 kW on natural gas (108.3/93.8 A); 55.2 kVA / 230 LRA motor-starting; G-Force 1000 999cc V-twin, pressure-lubricated, cast-iron sleeve; 67 dB(A) at 23 ft at normal load, 57 dB(A) Quiet-Test exercise (5 min), per spec sheet G007290/G007291; 48 x 25 x 29 in, 518 lb; 110 A main breaker; Mobile Link Wi-Fi monitoring included (4G LTE module sold separately); ATS sold separately (G007291 bundles a 200A service-entrance ATS, maker $7,899 Oct 2026); Group 26R 540 CCA battery not included; 5-year limited warranty, tiered (labor years 1-2, parts only year 3, major components years 4-5). MODEL RULING 2026-11-24: 7290 is generator-only, 7291 is the same unit + 200A ATS. Generac's Next Gen 26 kW is a DIFFERENT unit \u2014 models 7327 (generator-only, ~$7,019) / 7328 (with switch), 26 kW LP / 24 kW NG, 997cc with hydraulic lifters + EFIC + built-in cellular; confirm the model number on any quote. Price re-verified 2026-11-26: $6,849 at Northern Tool, in stock; Norwall lists the same $6,849 but its og:availability meta still reads 'oos' (stale tag, flagged since 2026-11-12).",
    "slug": "generac-guardian-26kw",
    "type": "standby",
    "warranty_years": 5,
@@ -481,7 +496,7 @@
    },
    "kw": 20,
    "name": "Cummins QuietConnect 20kW (RS20A)",
-   "notes": "20 kW on LP / 18 kW on natural gas (75 A NG / 83.3 A LP); 40 kVA motor-starting (30% dip); QSJ999G 999cc V-twin; 65 dB(A) at 23 ft at normal load; crank-only exercise mode; Intelligent Load Management for up to 4 loads (kit sold separately); 34.1 x 36 x 27.3 in, 531 lb; ATS sold separately (the RS20AC bundles a 200A service-entrance ATS); Group 51R 450 CCA battery not included; Cloud Connect remote monitoring; 5-yr/2000-hr limited warranty (travel + labor 2 yrs, parts 5 yrs). Price re-verified 2026-11-25: $5,747.50 at Norwall, in stock.",
+   "notes": "20 kW on LP / 18 kW on natural gas (75 A NG / 83.3 A LP); 40 kVA motor-starting (30% dip); QSJ999G 999cc V-twin; 65 dB(A) at 23 ft at normal load; crank-only exercise mode; Intelligent Load Management for up to 4 loads (kit sold separately); 34.1 x 36 x 27.3 in, 531 lb; ATS sold separately (the RS20AC bundles a 200A service-entrance ATS); Group 51R 450 CCA battery not included; Cloud Connect remote monitoring; 5-yr/2000-hr limited warranty (travel + labor 2 yrs, parts 5 yrs). Price re-verified 2026-11-26: $5,747.50 at Norwall, in stock.",
    "slug": "cummins-quietconnect-rs20a",
    "type": "standby",
    "warranty_years": 5,
@@ -536,5 +551,5 @@
    "image": "/images/products/champion-axis-14kw.webp"
   }
  ],
- "updated": "2026-11-25"
+ "updated": "2026-11-26"
 }
