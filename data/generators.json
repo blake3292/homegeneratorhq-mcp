@@ -32,7 +32,7 @@
    "capacity_wh": 2042.8,
    "compatible": "Jackery Explorer 2000 Plus",
    "name": "Jackery Battery Pack 2000 Plus",
-   "notes": "LiFePO4 pack for the Explorer 2000 Plus only; up to five packs per station (12kWh), or 24kWh across paired stations. Listed at $799 on Jackery US (Nov 2026 check); shown sold out there at check time. 2026-11-13 check: back in stock at Jackery US at $799 (was sold out).",
+   "notes": "LiFePO4 pack for the Explorer 2000 Plus only; up to five packs per station (12kWh), or 24kWh across paired stations. Listed at $799 on Jackery US (Nov 2026 check); shown sold out there at check time. 2026-11-13 check: back in stock at Jackery US at $799 (was sold out). 2026-11-27 check: the v1 pack's Jackery US product page is gone (redirects to the Jackery homepage) - delisted; replaced by the Battery Pack 2000 Plus v2 (pre-order, ships Dec 14; HomePower 2000 Plus v2 kits from $1,199). Jackery UK still lists the v1 pack at \u00a31,399, OutOfStock.",
    "slug": "jackery-battery-pack-2000-plus",
    "type": "expansion battery",
    "weight_lb": 41.9,
@@ -148,7 +148,7 @@
    "inverter": true,
    "name": "Westinghouse iGen5000DFc",
    "noise_dba": "52",
-   "notes": "Dual fuel: 3,900 running / 5,000 peak watts on gasoline, 3,500 / 4,500 on propane; 224cc OHV; <3% THD; remote + push-button + recoil start; CO sensor with auto-shutoff; TT-30R + duplex 5-20R + 2x USB; up to 18 hrs on gas / 22 hrs on propane at 25% load on a 3.4 gal tank; parallel-capable; 3-year limited warranty. Specs verified on Westinghouse's own product page 2026-11-25. Availability 2026-11-25: OUT OF STOCK at Westinghouse's own store ($1,299 MSRP), at Norwall ($1,199), and at Home Depot ($999) - no live buy route found for the DFc; the Gas vs pairing stays blocked until one appears. Variants share the same 3,900/5,000 W core: DF (no CO sensor, $1,199) / DFc (CO sensor, $1,299) / DFcv (recoil start, $1,179) / DFc EFI ($1,399), all out of stock at the maker. Noise conflict: the DFc spec table says 52 dBA ('as low as'); the EFI sibling's page lists 61 dBA - the 52 figure is used here as the DFc's own spec-table figure, and the conflict is stated on any page that compares it.",
+   "notes": "Dual fuel: 3,900 running / 5,000 peak watts on gasoline, 3,500 / 4,500 on propane; 224cc OHV; <3% THD; remote + push-button + recoil start; CO sensor with auto-shutoff; TT-30R + duplex 5-20R + 2x USB; up to 18 hrs on gas / 22 hrs on propane at 25% load on a 3.4 gal tank; parallel-capable; 3-year limited warranty. Specs verified on Westinghouse's own product page 2026-11-25. Availability 2026-11-25: OUT OF STOCK at Westinghouse's own store ($1,299 MSRP), at Norwall ($1,199), and at Home Depot ($999) - no live buy route found for the DFc; the Gas vs pairing stays blocked until one appears. Variants share the same 3,900/5,000 W core: DF (no CO sensor, $1,199) / DFc (CO sensor, $1,299) / DFcv (recoil start, $1,179) / DFc EFI ($1,399), all out of stock at the maker. Noise conflict: the DFc spec table says 52 dBA ('as low as'); the EFI sibling's page lists 61 dBA - the 52 figure is used here as the DFc's own spec-table figure, and the conflict is stated on any page that compares it. Price re-verified 2026-11-27: still out of stock at Westinghouse ($1,299 MSRP), Norwall ($1,199) and Tractor Supply ($1,299.99); Home Depot still lists $999 (availability not readable). No live buy route.",
    "running_watts": 3900,
    "slug": "westinghouse-igen5000dfc",
    "starting_watts": 5000,
@@ -235,7 +235,7 @@
    "capacity_wh": 2042,
    "expandable": true,
    "name": "Jackery Explorer 2000 Plus",
-   "notes": "Expandable to 24kWh; strong solar-charging ecosystem. Discontinued per Jackery US (Nov 2026 check); successor is the HomePower 2000 Plus v2.",
+   "notes": "Expandable to 24kWh; strong solar-charging ecosystem. Discontinued per Jackery US (Nov 2026 check); successor is the HomePower 2000 Plus v2. Re-verified 2026-11-27: product page now returns 404 - discontinuation confirmed; successor HomePower 2000 Plus v2 is live (pre-order).",
    "output_w": 3000,
    "slug": "jackery-explorer-2000-plus",
    "type": "power station",
@@ -352,7 +352,7 @@
    },
    "kw": 24,
    "name": "Generac Guardian 24kW",
-   "notes": "Best-selling whole-home standby in the US; large dealer network. Now the Next Gen model 7326: 24kW LP / 22.5kW NG, 200-amp transfer switch with whole-home surge protection included, cellular + Wi-Fi monitoring. Replaced the discontinued 7209 on 2026-11-13; price at Norwall.",
+   "notes": "Best-selling whole-home standby in the US; large dealer network. Now the Next Gen model 7326: 24kW LP / 22.5kW NG, 200-amp transfer switch with whole-home surge protection included, cellular + Wi-Fi monitoring. Replaced the discontinued 7209 on 2026-11-13; price at Norwall. Price re-verified 2026-11-27: $7,639 at Norwall, in stock.",
    "slug": "generac-guardian-24kw",
    "type": "standby",
    "warranty_years": 5,
@@ -520,7 +520,7 @@
    },
    "kw": 13,
    "name": "Cummins QuietConnect 13kW (RS13A)",
-   "notes": "Compact QuietConnect rated 65 dB(A) at 23 ft at normal load; full 13 kW on both natural gas and propane (sheet rated amps 54.2 A NG / 54.2 A LP). 26 kVA motor-starting; QSJ999G 999cc V-twin; 34.1 x 36 x 27.3 in, 479 lb; ATS sold separately; 5-yr/2000-hr limited warranty (travel + labor 2 yrs, parts 5 yrs). Price re-verified 2026-11-18: $4,286.47 at Norwall, in stock.",
+   "notes": "Compact QuietConnect rated 65 dB(A) at 23 ft at normal load; full 13 kW on both natural gas and propane (sheet rated amps 54.2 A NG / 54.2 A LP). 26 kVA motor-starting; QSJ999G 999cc V-twin; 34.1 x 36 x 27.3 in, 479 lb; ATS sold separately; 5-yr/2000-hr limited warranty (travel + labor 2 yrs, parts 5 yrs). Price re-verified 2026-11-27: $4,286.47 at Norwall, in stock.",
    "slug": "cummins-quietconnect-rs13a",
    "type": "standby",
    "warranty_years": 5,
@@ -551,5 +551,5 @@
    "image": "/images/products/champion-axis-14kw.webp"
   }
  ],
- "updated": "2026-11-26"
+ "updated": "2026-11-27"
 }
